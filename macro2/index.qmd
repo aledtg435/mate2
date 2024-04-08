@@ -1,9 +1,0 @@
----
-title: "macro2"
----
-
-This is a Quarto website.
-
-\[Función de Producción\](
-
-[about](about.qmd)
