@@ -1,9 +1,11 @@
 ---
-title: "Materiales Auxiliares para Macroeconomía II"
+title: "macro2"
 ---
 
 This is a Quarto website.
 
-[Función de Producción](https://ecopan435.github.io/mate2/graficos/1. FuncionProduccion1.html)
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-[About](about.qmd)
+```{r}
+1 + 1
+```
