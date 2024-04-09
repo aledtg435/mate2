@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Website - macro2</title>
+<title>Website - Materiales Interesantes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -142,7 +108,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">macro2</h1>
+<h1 class="title">Materiales Interesantes</h1>
 </div>
 
 
@@ -157,13 +123,71 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
+<p><a href="https://ecopan435.github.io/mate2/graficos/1.%20FuncionProduccion1.html">Función de Producción</a></p>
+<p><a href="./about.html">About</a></p>
+<link href="https://kineticgraphs.org/css/kg.0.2.7.css" rel="stylesheet" type="text/css">
+<script src="https://kineticgraphs.org/js/kg.0.2.7.js"></script>
+
+<div class="kg-container">
+
+schema: EconSchema
+version: 1
+params:
+- name: A
+  value: 10
+  min: 1
+  max: 35
+  round: 0.01
+- name: a
+  value: 0.5
+  min: 0.25
+  max: 10
+  round: 0.01
+- name: L
+  value: 25
+  min: 0
+  max: 50
+  round: 1
+calcs:
+  y: "(50*(params.L)^(1/2))+50"
+  PMgL: "((1/2)*(50)*(params.L)^(1/2 - 1))"
+layout:
+  OneGraphPlusSidebar:
+    graph:
+      xAxis:
+        title: Horas de Trabajo ($L$)
+        orient: bottom
+        min: 0
+        max: 51
+      yAxis:
+        title: Nivel de Producción ($Y$)
+        orient: left
+        min: 0
+        max: 500
+      objects:
+      - Curve:
+          fn: "50*(x)^(1/2) + 50"
+          samplePoints: 300
+          stroke: colors.production
+          strokeWidth: 2
+          label:
+            text: f(L)
+            x: 50
+      - Point:
+          coordinates: [params.L, calcs.y]
+          fill: colors.production
+          drag:
+          - horizontal: L
+          droplines:
+            vertical: params.L.toFixed(1)
+            horizontal: (calcs.y).toFixed(1)
+    sidebar:
+      controls:
+      - title: Función de Producción Simple
+        description: Nivel de producción con respecto a la cantidad de insumo de trabajo.
+        divs:
+        - html: "`Hallar $Y$ cuando $L$ = $${params.L}$: $$\\\\begin{aligned} Y = f(L) &amp;= A*L^{1/2} + B \\\\\\\\  &amp;= 50*${params.L}^{1/2} + 50 \\\\\\\\ &amp;\\\\approx ${calcs.y.toFixed(2)} \\\\end{aligned}$$`"
+
 </div>
 
 
