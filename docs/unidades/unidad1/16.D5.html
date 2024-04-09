@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>D 5</title>
+    <link href="https://kineticgraphs.org/css/kg.0.2.7.css" rel="stylesheet" type="text/css">
+    <script src="https://kineticgraphs.org/js/kg.0.2.7.js"></script>
+</head>
+<body>
+
+
+
+<div class="kg-container">
+
+schema: EconSchema
+version: 1
+params:
+- name: c
+  value: 79
+  min: 0
+  max: 100
+  round: 0.5
+- name: d
+  value: -11
+  min: -40
+  max: 40
+  round: 0.1
+- name: A
+  value: 10
+  min: 1
+  max: 35
+  round: 0.01
+- name: a
+  value: 0.5
+  min: 0.25
+  max: 10
+  round: 0.01
+- name: L
+  value: 25
+  min: 0
+  max: 50
+  round: 1
+calcs:
+  y: "(50*(params.L)^(1/2))+50"
+  PMgL: "((1/2)*(50)*(params.L)^(1/2 - 1))"
+layout:
+  OneGraphPlusSidebar:
+    graph:
+      xAxis:
+        title: Horas de Trabajo ($L$)
+        orient: bottom
+        min: 0
+        max: 40
+      yAxis:
+        title: $C, Y$
+        orient: left
+        min: 0
+        max: 500
+      objects:
+      - Curve:
+          fn: "50*(x)^(1/2) + 50"
+          samplePoints: 300
+          stroke: colors.production
+          strokeWidth: 2
+          label:
+            text: f(L)'
+            x: 40
+      - Point:
+          coordinates: [25, 300]
+          fill: green
+          color: green
+          droplines:
+            vertical: L'
+            horizontal: C',Y'
+          label:
+            text: N
+            position: tl
+      - Curve:
+          fn: "(5)*x+175+0.2*(x-25)^(2)"
+          samplePoints: 300
+          color: purple
+          strokeWidth: 2
+      - Curve:
+          fn: "50*(x)^(1/2) + 190"
+          samplePoints: 300
+          stroke: colors.production
+          strokeWidth: 2
+          label:
+            text: f(L)
+            x: 35
+      - Curve:
+          fn: "(5)*(x-params.d)+175+0.2*((x-params.d)-25)^(2)+79"
+          samplePoints: 300
+          color: purple
+          strokeWidth: 2
+          drag:
+            - horizontal: d
+          label:
+            text: U
+            x: 20
+      - Point:
+          coordinates: [18, 402.1320]
+          fill: blue
+          color: blue
+          droplines:
+            vertical: L
+            horizontal: C,Y
+          label:
+            text: O
+            position: tl
+
+    sidebar:
+      controls:
+      - title: Disminución de B - Efecto Renta "Puro"
+        description: Una disminución en el coeficiente B de la función de producción, cuando B<0, reduce la producción total.
+
+
+</div>
+
+</body>
+</html>

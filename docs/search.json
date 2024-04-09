@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Materiales Interesantes",
     "section": "",
-    "text": "Función de Producción\nAbout\n\n\n\n\n\nschema: EconSchema\nversion: 1\nparams:\n- name: A\n  value: 10\n  min: 1\n  max: 35\n  round: 0.01\n- name: a\n  value: 0.5\n  min: 0.25\n  max: 10\n  round: 0.01\n- name: L\n  value: 25\n  min: 0\n  max: 50\n  round: 1\ncalcs:\n  y: \"(50*(params.L)^(1/2))+50\"\n  PMgL: \"((1/2)*(50)*(params.L)^(1/2 - 1))\"\nlayout:\n  OneGraphPlusSidebar:\n    graph:\n      xAxis:\n        title: Horas de Trabajo ($L$)\n        orient: bottom\n        min: 0\n        max: 51\n      yAxis:\n        title: Nivel de Producción ($Y$)\n        orient: left\n        min: 0\n        max: 500\n      objects:\n      - Curve:\n          fn: \"50*(x)^(1/2) + 50\"\n          samplePoints: 300\n          stroke: colors.production\n          strokeWidth: 2\n          label:\n            text: f(L)\n            x: 50\n      - Point:\n          coordinates: [params.L, calcs.y]\n          fill: colors.production\n          drag:\n          - horizontal: L\n          droplines:\n            vertical: params.L.toFixed(1)\n            horizontal: (calcs.y).toFixed(1)\n    sidebar:\n      controls:\n      - title: Función de Producción Simple\n        description: Nivel de producción con respecto a la cantidad de insumo de trabajo.\n        divs:\n        - html: \"`Hallar $Y$ cuando $L$ = $${params.L}$: $$\\\\\\\\begin{aligned} Y = f(L) &= A*L^{1/2} + B \\\\\\\\\\\\\\\\  &= 50*${params.L}^{1/2} + 50 \\\\\\\\\\\\\\\\ &\\\\\\\\approx ${calcs.y.toFixed(2)} \\\\\\\\end{aligned}$$`\""
+    "text": "Unidad 1"
   },
   {
     "objectID": "about.html",
@@ -26,5 +26,12 @@
     "title": "Unidad 1",
     "section": "",
     "text": "C:/Users/hp/OneDrive/BCP/José Documentos/Macro II/website/macro2/unidades/unidad1"
+  },
+  {
+    "objectID": "unidades/unidad1/index.html#función-de-producción",
+    "href": "unidades/unidad1/index.html#función-de-producción",
+    "title": "Unidad 1",
+    "section": "",
+    "text": "schema: EconSchema\nversion: 1\nparams:\n- name: A\n  value: 10\n  min: 1\n  max: 35\n  round: 0.01\n- name: a\n  value: 0.5\n  min: 0.25\n  max: 10\n  round: 0.01\n- name: L\n  value: 25\n  min: 0\n  max: 50\n  round: 1\ncalcs:\n  y: \"(50*(params.L)^(1/2))+50\"\n  PMgL: \"((1/2)*(50)*(params.L)^(1/2 - 1))\"\nlayout:\n  OneGraphPlusSidebar:\n    graph:\n      xAxis:\n        title: Horas de Trabajo ($L$)\n        orient: bottom\n        min: 0\n        max: 51\n      yAxis:\n        title: Nivel de Producción ($Y$)\n        orient: left\n        min: 0\n        max: 500\n      objects:\n      - Curve:\n          fn: \"50*(x)^(1/2) + 50\"\n          samplePoints: 300\n          stroke: colors.production\n          strokeWidth: 2\n          label:\n            text: f(L)\n            x: 50\n      - Point:\n          coordinates: [params.L, calcs.y]\n          fill: colors.production\n          drag:\n          - horizontal: L\n          droplines:\n            vertical: params.L.toFixed(1)\n            horizontal: (calcs.y).toFixed(1)\n    sidebar:\n      controls:\n      - title: Función de Producción Simple\n        description: Nivel de producción con respecto a la cantidad de insumo de trabajo.\n        divs:\n        - html: \"`Hallar $Y$ cuando $L$ = $${params.L}$: $$\\\\\\\\begin{aligned} Y = f(L) &= A*L^{1/2} + B \\\\\\\\\\\\\\\\  &= 50*${params.L}^{1/2} + 50 \\\\\\\\\\\\\\\\ &\\\\\\\\approx ${calcs.y.toFixed(2)} \\\\\\\\end{aligned}$$`\""
   }
 ]

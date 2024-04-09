@@ -123,73 +123,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><a href="https://ecopan435.github.io/mate2/graficos/1.%20FuncionProduccion1.html">Función de Producción</a></p>
-<p><a href="./about.html">About</a></p>
-<link href="https://kineticgraphs.org/css/kg.0.2.7.css" rel="stylesheet" type="text/css">
-<script src="https://kineticgraphs.org/js/kg.0.2.7.js"></script>
-
-<div class="kg-container">
-
-schema: EconSchema
-version: 1
-params:
-- name: A
-  value: 10
-  min: 1
-  max: 35
-  round: 0.01
-- name: a
-  value: 0.5
-  min: 0.25
-  max: 10
-  round: 0.01
-- name: L
-  value: 25
-  min: 0
-  max: 50
-  round: 1
-calcs:
-  y: "(50*(params.L)^(1/2))+50"
-  PMgL: "((1/2)*(50)*(params.L)^(1/2 - 1))"
-layout:
-  OneGraphPlusSidebar:
-    graph:
-      xAxis:
-        title: Horas de Trabajo ($L$)
-        orient: bottom
-        min: 0
-        max: 51
-      yAxis:
-        title: Nivel de Producción ($Y$)
-        orient: left
-        min: 0
-        max: 500
-      objects:
-      - Curve:
-          fn: "50*(x)^(1/2) + 50"
-          samplePoints: 300
-          stroke: colors.production
-          strokeWidth: 2
-          label:
-            text: f(L)
-            x: 50
-      - Point:
-          coordinates: [params.L, calcs.y]
-          fill: colors.production
-          drag:
-          - horizontal: L
-          droplines:
-            vertical: params.L.toFixed(1)
-            horizontal: (calcs.y).toFixed(1)
-    sidebar:
-      controls:
-      - title: Función de Producción Simple
-        description: Nivel de producción con respecto a la cantidad de insumo de trabajo.
-        divs:
-        - html: "`Hallar $Y$ cuando $L$ = $${params.L}$: $$\\\\begin{aligned} Y = f(L) &amp;= A*L^{1/2} + B \\\\\\\\  &amp;= 50*${params.L}^{1/2} + 50 \\\\\\\\ &amp;\\\\approx ${calcs.y.toFixed(2)} \\\\end{aligned}$$`"
-
-</div>
- <embed type="text/html" src="graficos/1. FuncionProduccion1.html" width="500" height="500"> 
+<p><a href="./unidades/unidad1/index.html">Unidad 1</a></p>
 
 
 

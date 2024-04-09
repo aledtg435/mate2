@@ -9,10 +9,64 @@ Lorem ipsum
 ## Función de Producción
 
 ```{=html}
-<embed type="text/html" src="unidades/01.FuncionProduccion1.html" width="800" height="600">
+<iframe src="01.FuncionProduccion1.html" width="800" height="600" frameborder="0"></iframe>
 ```
-## Productividad Marginal del Trabajo
+## Productividad Marginal del Trabajo (L)
 
 ```{=html}
- <embed type="text/html" src="unidades/unidad1/02.PMgL1.html" width="500" height="500"> 
+<iframe src="02.PMgL1.html" width="800" height="600" frameborder="0"></iframe>
 ```
+## Derivada de la PMgL
+
+```{=html}
+<iframe src="03.PMgL2.html" width="800" height="600" frameborder="0"></iframe>
+```
+## Curva de Indiferencia
+
+```{=html}
+<iframe src="04.FP-CI.html" width="800" height="600" frameborder="0"></iframe>
+```
+## Aumento/Disminución de A
+
+```{=html}
+<iframe src="05.C0.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="06.C1.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="07.C2.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="08.C3.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="09.C4.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="10.C5.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="11.C6.html" width="800" height="600" frameborder="0"></iframe>
+```
+## Aumento/Disminución de B
+
+```{=html}
+<iframe src="12.D1.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="13.D2.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="14.D3.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="15.D4.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="16.D5.html" width="800" height="600" frameborder="0"></iframe>
+```
+```{=html}
+<iframe src="17.D6.html" width="800" height="600" frameborder="0"></iframe>
+```
+![](/img/BussinessCat.png){style="float:right;" width="137"}

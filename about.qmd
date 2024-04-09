@@ -7,16 +7,16 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com/MarvinSchmittML
+      href: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     - icon: github
       text: Github
-      href: https://github.com/marvinschmitt
+      href: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
+      href: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     - icon: envelope
       text: Email
-      href: "mailto:mail.marvinschmitt@gmail.com"  
+      href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"  
 ---
 
 ::: {#about-block}
@@ -34,6 +34,6 @@ On this website, you will find a selection of my published works, including scho
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
+<a class="btn btn-primary" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
 </div>
 ```
