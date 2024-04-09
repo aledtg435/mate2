@@ -1,0 +1,18 @@
+---
+title: "Unidad 1"
+---
+
+# Contenido de la unidad 1
+
+Lorem ipsum
+
+## Función de Producción
+
+```{=html}
+<embed type="text/html" src="unidades/01.FuncionProduccion1.html" width="800" height="600">
+```
+## Productividad Marginal del Trabajo
+
+```{=html}
+ <embed type="text/html" src="unidades/unidad1/02.PMgL1.html" width="500" height="500"> 
+```
