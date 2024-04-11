@@ -67,7 +67,7 @@
     "href": "unidades/unidad1/ejercitario1/index.html#sachs-jeffrey-y-larraín-felipe.-1994.",
     "title": "Ejercitario 1",
     "section": "Sachs, Jeffrey y Larraín, Felipe. (1994).",
-    "text": "Sachs, Jeffrey y Larraín, Felipe. (1994).\nMacroeconomía en la Economía Global. Capítulo 2, Los conceptos básicos en la macroeconomía.\n\nDistintas medidas del ingreso y del producto agregados, así como sus relaciones.\nLa función de los precios y los índices de precios.\n…\nDistinción entre stocks y flujos.\nFactores que influyen en las decisiones intertemporales de los agentes económicos: la tasa de interés y el valor presente."
+    "text": "Sachs, Jeffrey y Larraín, Felipe. (1994).\nMacroeconomía en la Economía Global. Capítulo 2, Los conceptos básicos en la macroeconomía.\n\nDistintas medidas del ingreso y del producto agregados, así como sus relaciones.\nLa función de los precios y los índices de precios.\n…"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#diferentes-formas-de-medir-el-pib-1",
@@ -102,7 +102,7 @@
     "href": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso-1",
     "title": "Ejercitario 1",
     "section": "Método del Ingreso",
-    "text": "Método del Ingreso\n\nHay dos factores que hacen que el ingreso doméstico no sea exactamente igual al PIB: la depreciación del stock de capital (DN) y los impuestos indirectos (Ti).\nCuando al PIB se le resta la depreciación se obtiene el Producto Interno Neto (PIN). \\(PIN = PIB - DN\\)\nPIB, a precios de mercado; PIN, a precios después de impuestos. La diferencia son los Ti. \\(PIB = PIN - Ti\\)\n\n\\[ ID \\approx PIN - Ti = (PIB - DN) - Ti \\]"
+    "text": "Método del Ingreso\n\nHay dos factores que hacen que el ingreso doméstico no sea exactamente igual al PIB: la depreciación del stock de capital (DN) y los impuestos indirectos (Ti).\nCuando al PIB se le resta la depreciación se obtiene el Producto Interno Neto (PIN). \\(PIN = PIB - DN\\)\nPIB, a precios de mercado; PIN, a precios después de impuestos. La diferencia son los Ti. \\(PIB = PIN - Ti\\)\n\n\\[ ID = PIN - Ti = (PIB - DN) - Ti \\]"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso-2",
@@ -110,5 +110,68 @@
     "title": "Ejercitario 1",
     "section": "Método del Ingreso",
     "text": "Método del Ingreso\n\\[ ID = PIN - Ti = (PIB - DN) - Ti \\]\n\\[ PIB = ID + DN + Ti \\]\n\\[ PIB = (W + R) + DN + Ti \\]"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#considerando-el-mercado-abierto-al-resto-del-mundo",
+    "href": "unidades/unidad1/ejercitario1/index.html#considerando-el-mercado-abierto-al-resto-del-mundo",
+    "title": "Ejercitario 1",
+    "section": "Considerando el mercado abierto al resto del mundo",
+    "text": "Considerando el mercado abierto al resto del mundo\n\\[\nPNB = PIB + PNF\n\\]\n\\[\nPIB = W + R + DN + Ti - PNF\n\\]\n\\[\nPIB = ID + DN + Ti - PNF\n\\]\nPago Neto a Factores (PNF): ingreso neto recibido por factores de producción nacionales desde el exterior.\nPNB: Producto Nacional Bruto."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#pib-nominal-y-pib-real",
+    "href": "unidades/unidad1/ejercitario1/index.html#pib-nominal-y-pib-real",
+    "title": "Ejercitario 1",
+    "section": "PIB Nominal y PIB Real",
+    "text": "PIB Nominal y PIB Real\n\\[\nPIB_{Nominal} = \\sum_{i = 0}^{n}{P_{i,t}*Q_{i,t}}\n\\]\n\\[\nPIB_{Real} = \\sum_{i = 0}^{n}{P_{i,0}*Q_{i,t}}\n\\]\n\\(P_0\\) considera precio constante de un año base."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#section",
+    "href": "unidades/unidad1/ejercitario1/index.html#section",
+    "title": "Ejercitario 1",
+    "section": "",
+    "text": "Cálculo de índices\nDeflactor implícito del PIB (\\(DI\\))\n\\[\nDI = \\frac{PIB_{Nominal}}{PIB_{Real}}\n\\]\nÍndice de Precios al Consumidor (\\(IPC\\))\n\\[\nIPC_t = w_0 * \\frac{P_t}{P_0}\n\\]\n\\(w_0\\) : ponderador fijo en año base."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#cálculo-de-índices",
+    "href": "unidades/unidad1/ejercitario1/index.html#cálculo-de-índices",
+    "title": "Ejercitario 1",
+    "section": "Cálculo de índices",
+    "text": "Cálculo de índices\nDeflactor implícito del PIB (\\(DI\\))\n\\[\nDI = \\frac{PIB_{Nominal}}{PIB_{Real}}\n\\]\nÍndice de Precios al Consumidor (\\(IPC\\))\n\\[\nIPC_t = \\sum_{i = 0}^{n}{ w_{i, 0} * \\frac{P_{i, t}}{P_{i, 0}}}\n\\]\n\\(w_0\\) : ponderador fijo en año base.\n\\(DI\\): Todos los productos \\(IPC\\): Canasta representativa"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#para-muchos-productos-en-un-periodo",
+    "href": "unidades/unidad1/ejercitario1/index.html#para-muchos-productos-en-un-periodo",
+    "title": "Ejercitario 1",
+    "section": "Para muchos productos en un periodo",
+    "text": "Para muchos productos en un periodo\nCon ponderadores fijos\n\\[\nIPC_t = w_{1, 0} *( \\frac{P_{1, t}}{P_{1, 0}}) + w_{2, 0} *( \\frac{P_{2, t}}{P_{2, 0}}) + ... + w_{n, 0} *( \\frac{P_{n, t}}{P_{n, 0}})\n\\]\nCálculo de los ponderadores\n\\[\nw_0 = P_0 * \\frac{Q_0}{PIB_{Nominal, 0}}\n\\]"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#para-toda-la-economía-en-varios-periodos",
+    "href": "unidades/unidad1/ejercitario1/index.html#para-toda-la-economía-en-varios-periodos",
+    "title": "Ejercitario 1",
+    "section": "Para toda la economía en varios periodos",
+    "text": "Para toda la economía en varios periodos\nsdsd"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#pib-nominal-y-pib-real-1",
+    "href": "unidades/unidad1/ejercitario1/index.html#pib-nominal-y-pib-real-1",
+    "title": "Ejercitario 1",
+    "section": "PIB Nominal y PIB Real",
+    "text": "PIB Nominal y PIB Real\n\n\\(P_{i, t}\\): precio de un bien o servicio específico \\(i\\) en un momento \\(t\\). Por ejemplo, el precio de una tonelada de trigo en el año \\(t\\).\n\\(Q_{i, t}\\): cantidad producida del bien o servicio específico \\(i\\) en el momento \\(t\\).\n\\(\\sum_{i = 0}^{n}\\): suma de todos los bienes y servicios producidos en la economía, desde el primero (\\(i = 0\\)) hasta el último (\\(i = n\\)). El símbolo \\(i\\) representa cada uno de estos bienes y servicios, y \\(n\\) es el número total de bienes y servicios."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#para-muchos-productos-en-un-periodo-1",
+    "href": "unidades/unidad1/ejercitario1/index.html#para-muchos-productos-en-un-periodo-1",
+    "title": "Ejercitario 1",
+    "section": "Para muchos productos en un periodo",
+    "text": "Para muchos productos en un periodo\nMediante índice Laspeyres\n\\[ IPC_{L} = \\frac{\\sum{P_t * Q_0}}{\\sum{P_{0} * Q_0}} * 100 \\]\nMediante índice Paasche\n\\[\nIPC_{P} = DI = \\frac{\\sum{P_t * Q_t}}{\\sum{P_{0} * Q_t}} * 100\n\\]\nEl IPC es un índice Laspeyres\nEl DI es un índice Paasche"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#ejercitario-1",
+    "href": "unidades/unidad1/ejercitario1/index.html#ejercitario-1",
+    "title": "Ejercitario 1",
+    "section": "Ejercitario 1",
+    "text": "Ejercitario 1\n1) La macroeconomía es una rama de la ciencia económica cuya aplicación a la vida diaria es casi inmediata ¿Cuál es la situación macroeconómica del Paraguay actualmente?\nVisite las páginas web del BCP, Hacienda, INE u otras como Banco Mundial, FMI y busque los indicadores macroeconómicos más importantes y confeccione un cuadro comparativo con un país europeo, un país asiático y un país latinoamericano."
   }
 ]

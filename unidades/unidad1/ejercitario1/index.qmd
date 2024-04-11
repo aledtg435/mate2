@@ -15,10 +15,6 @@ Macroeconomía en la Economía Global. Capítulo 2, Los conceptos básicos en la
 
 -   ...
 
--   Distinción entre stocks y flujos.
-
--   Factores que influyen en las decisiones intertemporales de los agentes económicos: la tasa de interés y el valor presente.
-
 ## Producto Interno Bruto (PIB)
 
 Es el valor total de la **producción corriente** de **bienes y servicios finales** dentro del territorio nacional durante un período de tiempo, expresado en una **unidad de medida común**, generalamente en una unidad monetaria.
@@ -104,3 +100,133 @@ $$ ID = PIN - Ti = (PIB - DN) - Ti $$
 $$ PIB = ID + DN + Ti $$
 
 $$ PIB = (W + R) + DN + Ti $$
+
+## Considerando el mercado abierto al resto del mundo
+
+$$
+PNB = PIB + PNF
+$$
+
+$$
+PIB = W + R + DN + Ti - PNF
+$$
+
+$$
+PIB = ID + DN + Ti - PNF
+$$
+
+**Pago Neto a Factores (PNF):** ingreso neto recibido por factores de producción nacionales desde el exterior.
+
+**PNB:** Producto Nacional Bruto.
+
+## PIB Nominal y PIB Real {.center}
+
+$$
+PIB_{Nominal} = \sum_{i = 0}^{n}{P_{i,t}*Q_{i,t}}
+$$
+
+$$
+PIB_{Real} = \sum_{i = 0}^{n}{P_{i,0}*Q_{i,t}}
+$$
+
+$P_0$ considera precio [constante]{.underline} de un **año base**.
+
+## PIB Nominal y PIB Real {.center}
+
+-   $P_{i, t}$: precio de un bien o [servicio específico]{.underline} $i$ en un [momento]{.underline} $t$. Por ejemplo, el precio de una tonelada de trigo en el año $t$.
+
+-   $Q_{i, t}$: cantidad producida del bien o servicio específico $i$ en el momento $t$.
+
+-   $\sum_{i = 0}^{n}$: suma de todos los bienes y servicios producidos en la economía, desde el primero ($i = 0$) hasta el último ($i = n$). El símbolo $i$ representa cada uno de estos bienes y servicios, y $n$ es el número total de bienes y servicios.
+
+## Cálculo de índices 
+
+[Deflactor implícito del PIB (]{.underline}$DI$)
+
+$$
+DI = \frac{PIB_{Nominal}}{PIB_{Real}}
+$$
+
+[Índice de Precios al Consumidor (]{.underline}$IPC$)
+
+$$
+IPC_t = \sum_{i = 0}^{n}{ w_{i, 0} * \frac{P_{i, t}}{P_{i, 0}}}
+$$
+
+$w_0$ : ponderador fijo en año base.
+
+$DI$: Todos los productos $IPC$: Canasta representativa
+
+## Para muchos productos en un periodo
+
+Con ponderadores fijos
+
+$$
+IPC_t = w_{1, 0} *( \frac{P_{1, t}}{P_{1, 0}}) + w_{2, 0} *( \frac{P_{2, t}}{P_{2, 0}}) + ... + w_{n, 0} *( \frac{P_{n, t}}{P_{n, 0}})
+$$
+
+Cálculo de los ponderadores
+
+$$
+w_0 = P_0 * \frac{Q_0}{PIB_{Nominal, 0}}
+$$
+
+## Para muchos productos en un periodo
+
+Mediante índice [Laspeyres]{.underline}
+
+$$ IPC_{L} = \frac{\sum{P_t * Q_0}}{\sum{P_{0} * Q_0}} * 100 $$
+
+Mediante índice [Paasche]{.underline}
+
+$$
+IPC_{P} = DI = \frac{\sum{P_t * Q_t}}{\sum{P_{0} * Q_t}} * 100
+$$
+
+El **IPC** es un índice Laspeyres
+
+El **DI** es un índice Paasche
+
+## Para toda la economía en varios periodos
+
+sdsd
+
+## Ejercicio 1
+
+**La macroeconomía es una rama de la ciencia económica cuya aplicación a la vida diaria es casi inmediata ¿Cuál es la situación macroeconómica del Paraguay actualmente?**
+
+Visite las páginas web del **BCP, Hacienda, INE u otras** como Banco Mundial, FMI y busque los indicadores macroeconómicos más importantes y **confeccione un cuadro comparativo** con un país europeo, un país asiático y un país latinoamericano.
+
+## Ejercicio 1
+
+**Indicadores macroeconómicos:** PIB, inflación, desempleo, tipos de interés, productividad.
+
+-   PIB = tasa de crecimiento, tendencia, pronóstico.
+
+-   IPC = inflación, comportamiento, fluctuación.
+
+-   Moneda = fortaleza, estabilidad, tipos de interés.
+
+-   Mercado laboral = empleo, comportamiento.
+
+## Ejercicio 2
+
+El valor de las transacciones siguientes ¿Debe incluirse o no como parte del PIB? ¿Por qué no?
+
+a.  Un turista paga una **comida** en un restaurante.
+
+b.  Una compañía compra un **edificio** **antiguo**.
+
+c.  Un proveedor vende chips de computadora a una **empresa que fabrica** computadoras.
+
+d.  Un consumidor compra un automóvil a un **distribuidor**.
+
+## Ejercicio 3
+
+Considere una economía simple con sólo 3 artículos. El precio de mercado de cada artículo es: $P_1= 5$, $P_2=10$ y $P_3=15$.
+
+La producción (y el consumo) de cada artículo durante $1990$ fue: $Q_1 = 20$; $Q_2 = 25$ y $Q_3 = 10$.
+
+Suponga que en $1991$ los precios suben a: $P_1= 6$, $P_2=12$ y $P_3= 17$ y las cantidades producidas (y consumidas) pasan a: $Q_1 = 21$; $Q_2= 27$ y $Q_3 = 11$.
+
+Determine: a. El valor del PIB nominal de cada año. b. Índice de precios al consumidor usando como ponderadores la participación de cada artículo en el consumo total. c. Índice de precios considerando las fórmulas de Laspeyres y Paasche. d. El valor del PIB real del año 1991, usando 1990 como año base. e. La inflación y la tasa de crecimiento real de la economía. f. Que dice su respuesta respecto a la importancia de usar índices o deflactores de precios.
