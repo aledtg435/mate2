@@ -1,8 +1,10 @@
 ---
 title: "Ejercitario 1"
 subtitle: "Diferentes formas de medir el PIB"
-format: revealjs
-chalkboard: true
+format:
+  revealjs:
+    theme: default
+    chalkboard: true
 ---
 
 ## Sachs, Jeffrey y Larraín, Felipe. (1994).
@@ -139,7 +141,7 @@ $P_0$ considera precio [constante]{.underline} de un **año base**.
 
 -   $\sum_{i = 0}^{n}$: suma de todos los bienes y servicios producidos en la economía, desde el primero ($i = 0$) hasta el último ($i = n$). El símbolo $i$ representa cada uno de estos bienes y servicios, y $n$ es el número total de bienes y servicios.
 
-## Cálculo de índices 
+## Cálculo de índices
 
 [Deflactor implícito del PIB (]{.underline}$DI$)
 
@@ -229,4 +231,29 @@ La producción (y el consumo) de cada artículo durante $1990$ fue: $Q_1 = 20$; 
 
 Suponga que en $1991$ los precios suben a: $P_1= 6$, $P_2=12$ y $P_3= 17$ y las cantidades producidas (y consumidas) pasan a: $Q_1 = 21$; $Q_2= 27$ y $Q_3 = 11$.
 
-Determine: a. El valor del PIB nominal de cada año. b. Índice de precios al consumidor usando como ponderadores la participación de cada artículo en el consumo total. c. Índice de precios considerando las fórmulas de Laspeyres y Paasche. d. El valor del PIB real del año 1991, usando 1990 como año base. e. La inflación y la tasa de crecimiento real de la economía. f. Que dice su respuesta respecto a la importancia de usar índices o deflactores de precios.
+## Ejercicio 3 {.smaller}
+
+[Determine]{.underline}:
+
+a.  El valor del PIB nominal de cada año.
+b.  Índice de precios al consumidor usando como ponderadores la participación de cada artículo en el consumo total.
+c.  Índice de precios considerando las fórmulas de Laspeyres y Paasche.
+d.  El valor del PIB real del año 1991, usando 1990 como año base.
+e.  La inflación y la tasa de crecimiento real de la economía.
+f.  Que dice su respuesta respecto a la importancia de usar índices o deflactores de precios.
+
+## Ejercicio 4
+
+Usted conoce la siguiente información sobre la economía de Macrolandia, donde la producción se agrupa en tres sectores productivos (agrícola, industrial y servicios); consumo 3400 PIB sector agrícola 940 ingreso doméstico 3550 Remuneración al capital 860 PNB 4050 Gastos públicos 500 PIB industrial 1450 Exportaciones 600 Impuestos indirectos 50 También se sabe que el stock de capital es dos veces el PIB y que la depreciación corresponde al 5% del stock de capital actual. Las importaciones tienen como único destino el consumo, del cual representan el 40%. No existen impuestos directos. Con dicha información calcule: a) el PIB del sector servicios b) el PIB del total c) el pago neto a factores d) las remuneraciones a los trabajadores y; e) la inversión bruta y neta.
+
+## Ejercicio 5
+
+Supongamos una economía donde el consumo agregado es igual a 100, la inversión igual a 80, se pagan impuestos por un total de 10, las exportaciones ascienden a 15 y las importaciones a 5. Además, el gobierno no posee deudas y gasta el total de sus ingresos. a) Calcular el PIB b) Calcular el ahorro privado, el ahorro público y el ahorro externo. c) Muestre la igualdad ahorro-inversión.
+
+## Ejercicio 6
+
+Un PIB per cápita más alto ¿Implica necesariamente mayor bienestar?
+
+## Ejercicio 7
+
+Señale el tipo de sesgo que existe en la medición del índice de precios al consumidor frente a los siguientes hechos: a.) La aparición de múltiples plataformas de streaming. b.) El lanzamiento anual de novedosos y cada vez más potentes smartphones c.) La aparición de grandes establecimientos comerciales con ofertas muy interesantes para los consumidores. d.) El incremento del precio de la mantequilla frente a la margarina.
