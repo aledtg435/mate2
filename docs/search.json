@@ -95,6 +95,20 @@
     "href": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso",
     "title": "Ejercitario 1",
     "section": "Método del Ingreso",
-    "text": "Método del Ingreso\n\\[\nPIB = (W + R) + D + Ti\n\\]"
+    "text": "Método del Ingreso\n\nSuma los ingresos de todos los factores (trabajo y capital) que contribuyen al proceso productivo.\nEl Ingreso Doméstico (ID), estrechamente relacionado con el PIB, es la suma del ingreso del trabajo (W) y el ingreso del capital (R). \\(ID = W + R\\)\nIngreso Laboral: compensación de los empleados asalariados.\nIngreso del Capital: abarcan el ingreso de los trabajadores independientes, ingreso por intereses, por arrendamiento y las utilidades empresariales."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso-1",
+    "href": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso-1",
+    "title": "Ejercitario 1",
+    "section": "Método del Ingreso",
+    "text": "Método del Ingreso\n\nHay dos factores que hacen que el ingreso doméstico no sea exactamente igual al PIB: la depreciación del stock de capital (DN) y los impuestos indirectos (Ti).\nCuando al PIB se le resta la depreciación se obtiene el Producto Interno Neto (PIN). \\(PIN = PIB - DN\\)\nPIB, a precios de mercado; PIN, a precios después de impuestos. La diferencia son los Ti. \\(PIB = PIN - Ti\\)\n\n\\[ ID \\approx PIN - Ti = (PIB - DN) - Ti \\]"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso-2",
+    "href": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso-2",
+    "title": "Ejercitario 1",
+    "section": "Método del Ingreso",
+    "text": "Método del Ingreso\n\\[ ID = PIN - Ti = (PIB - DN) - Ti \\]\n\\[ PIB = ID + DN + Ti \\]\n\\[ PIB = (W + R) + DN + Ti \\]"
   }
 ]

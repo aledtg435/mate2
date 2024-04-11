@@ -79,6 +79,28 @@ Considerando impuestos indirectos y subvenciones
 
 ## Método del Ingreso {.center}
 
-$$
-PIB = (W + R) + D + Ti
-$$
+-   Suma los ingresos de todos los factores (trabajo y capital) que contribuyen al proceso productivo.
+
+-   El **Ingreso Doméstico (ID)**, estrechamente [relacionado]{.underline} con el PIB, es la suma del ingreso del **trabajo** **(W)** y el ingreso del **capital (R)**. $ID = W + R$
+
+-   Ingreso Laboral: compensación de los empleados asalariados.
+
+-   Ingreso del Capital: abarcan el ingreso de los trabajadores independientes, ingreso por intereses, por arrendamiento y las utilidades empresariales.
+
+## Método del Ingreso {.center}
+
+-   Hay dos factores que hacen que el ingreso doméstico [no sea exactamente igual]{.underline} al PIB: la **depreciación** del stock de capital **(DN)** y los **impuestos** **indirectos (Ti)**.
+
+-   Cuando al PIB se le resta la depreciación se obtiene el Producto Interno Neto (PIN). $PIN = PIB - DN$
+
+-   PIB, a precios de mercado; PIN, a precios después de impuestos. La [diferencia]{.underline} son los Ti. $PIB = PIN - Ti$
+
+$$ ID = PIN - Ti = (PIB - DN) - Ti $$
+
+## Método del Ingreso {.center}
+
+$$ ID = PIN - Ti = (PIB - DN) - Ti $$
+
+$$ PIB = ID + DN + Ti $$
+
+$$ PIB = (W + R) + DN + Ti $$
