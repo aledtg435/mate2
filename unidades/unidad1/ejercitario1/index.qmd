@@ -1,0 +1,84 @@
+---
+title: "Ejercitario 1"
+subtitle: "Diferentes formas de medir el PIB"
+format: revealjs
+chalkboard: true
+---
+
+## Sachs, Jeffrey y Larraín, Felipe. (1994).
+
+Macroeconomía en la Economía Global. Capítulo 2, Los conceptos básicos en la macroeconomía.
+
+-   Distintas medidas del ingreso y del producto agregados, así como sus relaciones.
+
+-   La función de los precios y los índices de precios.
+
+-   ...
+
+-   Distinción entre stocks y flujos.
+
+-   Factores que influyen en las decisiones intertemporales de los agentes económicos: la tasa de interés y el valor presente.
+
+## Producto Interno Bruto (PIB)
+
+Es el valor total de la **producción corriente** de **bienes y servicios finales** dentro del territorio nacional durante un período de tiempo, expresado en una **unidad de medida común**, generalamente en una unidad monetaria.
+
+-   *"producción corriente"* no se cuenta la reventa de artículos producidos en un período anterior.
+
+-   *"bienes finales"* no se cuenta el valor de las materias primas y los bienes intermedios (semi-terminados) que se utilizan como insumos para la producción de otros bienes.
+
+## Diferentes formas de medir el PIB
+
+-   El PIB es la suma de todas las **compras finales** o demandas finales de productos en la economía.
+
+-   Es la suma del **valor agregado** por todas las empresas de la economía.
+
+-   Es la suma de todos los **ingresos de los factores** de producción (trabajo y capital) en la economía.
+
+## Diferentes formas de medir el PIB
+
+-   Método del [Gasto]{.underline} (compras finales).
+
+-   Método del [Producto]{.underline} (valor agregado).
+
+-   Método del [Ingreso]{.underline} (ingreso de los factores).
+
+Todos dan el mismo resultado[^1]
+
+[^1]: Se pueden presentar pequeñas diferencias entre las tres medidas debido a errores en los datos.
+
+## Método del Gasto {.center}
+
+$$
+PIB=C+I+G+NX
+$$
+
+$C$ : es el consumo familiar
+
+$G$ : consumo del gobierno
+
+$I$ : inversión en capital nuevo para la economía
+
+$NX$ : ventas netas al extranjero
+
+## Método del Producto {.center}
+
+$$
+PIB = \sum_{j:1}^{n}{VAB_j}
+$$
+
+$$
+VAB_j = VBP_j - CI_j
+$$
+
+$$
+PIB = VAB + Ti - S
+$$
+
+Considerando impuestos indirectos y subvenciones
+
+## Método del Ingreso {.center}
+
+$$
+PIB = (W + R) + D + Ti
+$$
