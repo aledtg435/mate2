@@ -5,6 +5,7 @@ format:
   revealjs:
     theme: default
     chalkboard: true
+  pdf: default
 ---
 
 ## Sachs, Jeffrey y Larraín, Felipe. (1994).
@@ -59,7 +60,7 @@ $I$ : inversión en capital nuevo para la economía
 
 $NX$ : ventas netas al extranjero
 
-## Método del Producto {.center}
+## Método del Producto
 
 $$
 PIB = \sum_{j:1}^{n}{VAB_j}
@@ -75,7 +76,7 @@ $$
 
 Considerando impuestos indirectos y subvenciones
 
-## Método del Ingreso {.center}
+## Método del Ingreso
 
 -   Suma los ingresos de todos los factores (trabajo y capital) que contribuyen al proceso productivo.
 
@@ -85,7 +86,7 @@ Considerando impuestos indirectos y subvenciones
 
 -   Ingreso del Capital: abarcan el ingreso de los trabajadores independientes, ingreso por intereses, por arrendamiento y las utilidades empresariales.
 
-## Método del Ingreso {.center}
+## Método del Ingreso
 
 -   Hay dos factores que hacen que el ingreso doméstico [no sea exactamente igual]{.underline} al PIB: la **depreciación** del stock de capital **(DN)** y los **impuestos** **indirectos (Ti)**.
 
@@ -95,7 +96,7 @@ Considerando impuestos indirectos y subvenciones
 
 $$ ID = PIN - Ti = (PIB - DN) - Ti $$
 
-## Método del Ingreso {.center}
+## Método del Ingreso
 
 $$ ID = PIN - Ti = (PIB - DN) - Ti $$
 
@@ -133,7 +134,7 @@ $$
 
 $P_0$ considera precio [constante]{.underline} de un **año base**.
 
-## PIB Nominal y PIB Real {.center}
+## PIB Nominal y PIB Real
 
 -   $P_{i, t}$: precio de un bien o [servicio específico]{.underline} $i$ en un [momento]{.underline} $t$. Por ejemplo, el precio de una tonelada de trigo en el año $t$.
 
