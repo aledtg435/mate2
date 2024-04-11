@@ -33,5 +33,68 @@
     "title": "Unidad 1",
     "section": "",
     "text": "schema: EconSchema\nversion: 1\nparams:\n- name: A\n  value: 10\n  min: 1\n  max: 35\n  round: 0.01\n- name: a\n  value: 0.5\n  min: 0.25\n  max: 10\n  round: 0.01\n- name: L\n  value: 25\n  min: 0\n  max: 50\n  round: 1\ncalcs:\n  y: \"(50*(params.L)^(1/2))+50\"\n  PMgL: \"((1/2)*(50)*(params.L)^(1/2 - 1))\"\nlayout:\n  OneGraphPlusSidebar:\n    graph:\n      xAxis:\n        title: Horas de Trabajo ($L$)\n        orient: bottom\n        min: 0\n        max: 51\n      yAxis:\n        title: Nivel de Producción ($Y$)\n        orient: left\n        min: 0\n        max: 500\n      objects:\n      - Curve:\n          fn: \"50*(x)^(1/2) + 50\"\n          samplePoints: 300\n          stroke: colors.production\n          strokeWidth: 2\n          label:\n            text: f(L)\n            x: 50\n      - Point:\n          coordinates: [params.L, calcs.y]\n          fill: colors.production\n          drag:\n          - horizontal: L\n          droplines:\n            vertical: params.L.toFixed(1)\n            horizontal: (calcs.y).toFixed(1)\n    sidebar:\n      controls:\n      - title: Función de Producción Simple\n        description: Nivel de producción con respecto a la cantidad de insumo de trabajo.\n        divs:\n        - html: \"`Hallar $Y$ cuando $L$ = $${params.L}$: $$\\\\\\\\begin{aligned} Y = f(L) &= A*L^{1/2} + B \\\\\\\\\\\\\\\\  &= 50*${params.L}^{1/2} + 50 \\\\\\\\\\\\\\\\ &\\\\\\\\approx ${calcs.y.toFixed(2)} \\\\\\\\end{aligned}$$`\""
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#diferentes-formas-de-medir-el-pib",
+    "href": "unidades/unidad1/ejercitario1/index.html#diferentes-formas-de-medir-el-pib",
+    "title": "Ejercitario 1",
+    "section": "Diferentes formas de medir el PIB",
+    "text": "Diferentes formas de medir el PIB\n\nEl PIB es la suma de todas las compras finales o demandas finales de productos en la economía.\nEs la suma del valor agregado por todas las empresas de la economía.\nEs la suma de todos los ingresos de los factores de producción (trabajo y capital) en la economía."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#por-el-lado-del-gasto",
+    "href": "unidades/unidad1/ejercitario1/index.html#por-el-lado-del-gasto",
+    "title": "Ejercitario 1",
+    "section": "Por el lado del Gasto",
+    "text": "Por el lado del Gasto\n\\[\nPIB=C+I+G+NX\n\\]"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#por-el-lado-del-producto",
+    "href": "unidades/unidad1/ejercitario1/index.html#por-el-lado-del-producto",
+    "title": "Ejercitario 1",
+    "section": "Por el lado del Producto",
+    "text": "Por el lado del Producto\n\\[\nPIB = \\sum_{j:1}^{n}{VAB_j}\n\\]\n\\[\nVAB_j = VBP_j - CI_j\n\\]\n\\[\nPIB = VAB + Ti - S\n\\]"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#producto-interno-bruto-pib",
+    "href": "unidades/unidad1/ejercitario1/index.html#producto-interno-bruto-pib",
+    "title": "Ejercitario 1",
+    "section": "Producto Interno Bruto (PIB)",
+    "text": "Producto Interno Bruto (PIB)\nEs el valor total de la producción corriente de bienes y servicios finales dentro del territorio nacional durante un período de tiempo, expresado en una unidad de medida común, generalamente en una unidad monetaria.\n\n“producción corriente” no se cuenta la reventa de artículos producidos en un período anterior.\n“bienes finales” no se cuenta el valor de las materias primas y los bienes intermedios (semi-terminados) que se utilizan como insumos para la producción de otros bienes."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#sachs-jeffrey-y-larraín-felipe.-1994.",
+    "href": "unidades/unidad1/ejercitario1/index.html#sachs-jeffrey-y-larraín-felipe.-1994.",
+    "title": "Ejercitario 1",
+    "section": "Sachs, Jeffrey y Larraín, Felipe. (1994).",
+    "text": "Sachs, Jeffrey y Larraín, Felipe. (1994).\nMacroeconomía en la Economía Global. Capítulo 2, Los conceptos básicos en la macroeconomía.\n\nDistintas medidas del ingreso y del producto agregados, así como sus relaciones.\nLa función de los precios y los índices de precios.\n…\nDistinción entre stocks y flujos.\nFactores que influyen en las decisiones intertemporales de los agentes económicos: la tasa de interés y el valor presente."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#diferentes-formas-de-medir-el-pib-1",
+    "href": "unidades/unidad1/ejercitario1/index.html#diferentes-formas-de-medir-el-pib-1",
+    "title": "Ejercitario 1",
+    "section": "Diferentes formas de medir el PIB",
+    "text": "Diferentes formas de medir el PIB\n\nMétodo del Gasto (compras finales).\nMétodo del Producto (valor agregado).\nMétodo del Ingreso (ingreso de los factores).\n\nTodos dan el mismo resultado1\nSe pueden presentar pequeñas diferencias entre las tres medidas debido a errores en los datos."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#método-del-gasto",
+    "href": "unidades/unidad1/ejercitario1/index.html#método-del-gasto",
+    "title": "Ejercitario 1",
+    "section": "Método del Gasto",
+    "text": "Método del Gasto\n\\[\nPIB=C+I+G+NX\n\\]\n\\(C\\) : es el consumo familiar\n\\(G\\) : consumo del gobierno\n\\(I\\) : inversión en capital nuevo para la economía\n\\(NX\\) : ventas netas al extranjero"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#método-del-producto",
+    "href": "unidades/unidad1/ejercitario1/index.html#método-del-producto",
+    "title": "Ejercitario 1",
+    "section": "Método del Producto",
+    "text": "Método del Producto\n\\[\nPIB = \\sum_{j:1}^{n}{VAB_j}\n\\]\n\\[\nVAB_j = VBP_j - CI_j\n\\]\n\\[\nPIB = VAB + Ti - S\n\\]\nConsiderando impuestos indirectos y subvenciones"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso",
+    "href": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso",
+    "title": "Ejercitario 1",
+    "section": "Método del Ingreso",
+    "text": "Método del Ingreso\n\\[\nPIB = (W + R) + D + Ti\n\\]"
   }
 ]
