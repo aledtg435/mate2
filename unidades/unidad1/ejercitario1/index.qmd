@@ -10,9 +10,9 @@ format:
 
 ## Sachs, Jeffrey y Larraín, Felipe. (1994).
 
-Macroeconomía en la Economía Global. Capítulo 2, Los conceptos básicos en la macroeconomía.
+Macroeconomía en la Economía Global. `Capítulo 2`, Los conceptos básicos en la macroeconomía.
 
--   Distintas medidas del ingreso y del producto agregados, así como sus relaciones.
+-   Distintas `medidas del ingreso` y del `producto` agregados, así como sus relaciones.
 
 -   La función de los precios y los índices de precios.
 
@@ -22,9 +22,9 @@ Macroeconomía en la Economía Global. Capítulo 2, Los conceptos básicos en la
 
 Es el valor total de la **producción corriente** de **bienes y servicios finales** dentro del territorio nacional durante un período de tiempo, expresado en una **unidad de medida común**, generalamente en una unidad monetaria.
 
--   *"producción corriente"* no se cuenta la reventa de artículos producidos en un período anterior.
+-   *"`producción corriente`"* no se cuenta la reventa de artículos producidos en un período anterior.
 
--   *"bienes finales"* no se cuenta el valor de las materias primas y los bienes intermedios (semi-terminados) que se utilizan como insumos para la producción de otros bienes.
+-   *"`bienes finales`"* no se cuenta el valor de las materias primas y los bienes intermedios (semi-terminados) que se utilizan como insumos para la producción de otros bienes.
 
 ## Diferentes formas de medir el PIB
 
@@ -54,9 +54,9 @@ $$
 
 $C$ : es el consumo familiar
 
-$G$ : consumo del gobierno
-
 $I$ : inversión en capital nuevo para la economía
+
+$G$ : consumo del gobierno
 
 $NX$ : ventas netas al extranjero
 
@@ -236,16 +236,36 @@ Suponga que en $1991$ los precios suben a: $P_1= 6$, $P_2=12$ y $P_3= 17$ y las 
 
 [Determine]{.underline}:
 
-a.  El valor del PIB nominal de cada año.
-b.  Índice de precios al consumidor usando como ponderadores la participación de cada artículo en el consumo total.
-c.  Índice de precios considerando las fórmulas de Laspeyres y Paasche.
-d.  El valor del PIB real del año 1991, usando 1990 como año base.
-e.  La inflación y la tasa de crecimiento real de la economía.
-f.  Que dice su respuesta respecto a la importancia de usar índices o deflactores de precios.
+a.  El valor del `PIB nominal` de cada año.
+b.  `Índice de precios al consumidor` usando como ponderadores la participación de cada artículo en el consumo total.
+c.  Índice de precios considerando las fórmulas de `Laspeyres` y `Paasche`.
+d.  El valor del `PIB real` del año 1991, usando 1990 como año base.
+e.  La `inflación` y la `tasa de crecimiento real` de la economía.
+f.  Que dice su respuesta respecto a la `importancia` de usar índices o deflactores de precios.
 
 ## Ejercicio 4
 
-Usted conoce la siguiente información sobre la economía de Macrolandia, donde la producción se agrupa en tres sectores productivos (agrícola, industrial y servicios); consumo 3400 PIB sector agrícola 940 ingreso doméstico 3550 Remuneración al capital 860 PNB 4050 Gastos públicos 500 PIB industrial 1450 Exportaciones 600 Impuestos indirectos 50 También se sabe que el stock de capital es dos veces el PIB y que la depreciación corresponde al 5% del stock de capital actual. Las importaciones tienen como único destino el consumo, del cual representan el 40%. No existen impuestos directos. Con dicha información calcule: a) el PIB del sector servicios b) el PIB del total c) el pago neto a factores d) las remuneraciones a los trabajadores y; e) la inversión bruta y neta.
+Usted conoce la siguiente información sobre la economía de Macrolandia, donde la producción se agrupa en tres sectores productivos (agrícola, industrial y servicios):
+
+|                      |       |                      |     |
+|----------------------|-------|----------------------|-----|
+| Consumo              | 3.400 | PIB sector agrícola  | 940 |
+| Ingreso doméstico    | 3.550 | Remuneración capital | 860 |
+| PNB                  | 4.050 | Gastos públicos      | 500 |
+| PIB industrial       | 1.450 | Exportaciones        | 600 |
+| Impuestos indirectos | 50    |                      |     |
+
+## Ejercicio 4
+
+También se sabe que:
+
+-   El `stock de capital` es dos veces el `PIB` y que la depreciación corresponde al 5% del stock de capital actual.
+
+-   Las importaciones tienen como único destino el consumo, del cual representan el 40%.
+
+-   No existen impuestos directos.
+
+Con dicha información calcule: a) el **PIB** del sector servicios b) el **PIB** del total c) el **pago** **neto** **a** **factores** d) las remuneraciones a los **trabajadores** y; e) la **inversión** **bruta** y **neta**.
 
 ## Ejercicio 5
 

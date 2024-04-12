@@ -81,7 +81,7 @@
     "href": "unidades/unidad1/ejercitario1/index.html#método-del-gasto",
     "title": "Ejercitario 1",
     "section": "Método del Gasto",
-    "text": "Método del Gasto\n\\[\nPIB=C+I+G+NX\n\\]\n\\(C\\) : es el consumo familiar\n\\(G\\) : consumo del gobierno\n\\(I\\) : inversión en capital nuevo para la economía\n\\(NX\\) : ventas netas al extranjero"
+    "text": "Método del Gasto\n\\[\nPIB=C+I+G+NX\n\\]\n\\(C\\) : es el consumo familiar\n\\(I\\) : inversión en capital nuevo para la economía\n\\(G\\) : consumo del gobierno\n\\(NX\\) : ventas netas al extranjero"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#método-del-producto",
@@ -214,7 +214,7 @@
     "href": "unidades/unidad1/ejercitario1/index.html#ejercicio-4",
     "title": "Ejercitario 1",
     "section": "Ejercicio 4",
-    "text": "Ejercicio 4\nUsted conoce la siguiente información sobre la economía de Macrolandia, donde la producción se agrupa en tres sectores productivos (agrícola, industrial y servicios); consumo 3400 PIB sector agrícola 940 ingreso doméstico 3550 Remuneración al capital 860 PNB 4050 Gastos públicos 500 PIB industrial 1450 Exportaciones 600 Impuestos indirectos 50 También se sabe que el stock de capital es dos veces el PIB y que la depreciación corresponde al 5% del stock de capital actual. Las importaciones tienen como único destino el consumo, del cual representan el 40%. No existen impuestos directos. Con dicha información calcule: a) el PIB del sector servicios b) el PIB del total c) el pago neto a factores d) las remuneraciones a los trabajadores y; e) la inversión bruta y neta."
+    "text": "Ejercicio 4\nUsted conoce la siguiente información sobre la economía de Macrolandia, donde la producción se agrupa en tres sectores productivos (agrícola, industrial y servicios):\n\n\n\nConsumo\n3.400\nPIB sector agrícola\n940\n\n\nIngreso doméstico\n3.550\nRemuneración capital\n860\n\n\nPNB\n4.050\nGastos públicos\n500\n\n\nPIB industrial\n1.450\nExportaciones\n600\n\n\nImpuestos indirectos\n50"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#ejercicio-5",
@@ -236,5 +236,12 @@
     "title": "Ejercitario 1",
     "section": "Ejercicio 7",
     "text": "Ejercicio 7\nSeñale el tipo de sesgo que existe en la medición del índice de precios al consumidor frente a los siguientes hechos: a.) La aparición de múltiples plataformas de streaming. b.) El lanzamiento anual de novedosos y cada vez más potentes smartphones c.) La aparición de grandes establecimientos comerciales con ofertas muy interesantes para los consumidores. d.) El incremento del precio de la mantequilla frente a la margarina."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#ejercicio-4-1",
+    "href": "unidades/unidad1/ejercitario1/index.html#ejercicio-4-1",
+    "title": "Ejercitario 1",
+    "section": "Ejercicio 4",
+    "text": "Ejercicio 4\nTambién se sabe que:\n\nEl stock de capital es dos veces el PIB y que la depreciación corresponde al 5% del stock de capital actual.\nLas importaciones tienen como único destino el consumo, del cual representan el 40%.\nNo existen impuestos directos.\n\nCon dicha información calcule: a) el PIB del sector servicios b) el PIB del total c) el pago neto a factores d) las remuneraciones a los trabajadores y; e) la inversión bruta y neta."
   }
 ]
