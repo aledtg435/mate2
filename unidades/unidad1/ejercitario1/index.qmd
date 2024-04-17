@@ -4,9 +4,10 @@ subtitle: "Diferentes formas de medir el PIB"
 format:
   revealjs: 
     slide-number: true
+    scrollable: true
     chalkboard: 
       buttons: true
-    preview-links: auto
+    preview-links: true
     theme: default
 ---
 
@@ -200,7 +201,7 @@ sdsd
 
 **La macroeconomía es una rama de la ciencia económica cuya aplicación a la vida diaria es casi inmediata ¿Cuál es la situación macroeconómica del Paraguay actualmente?**
 
-Visite las páginas web del **BCP, Hacienda, INE u otras** como Banco Mundial, FMI y busque los indicadores macroeconómicos más importantes y **confeccione un cuadro comparativo** con un país europeo, un país asiático y un país latinoamericano.
+Visite las páginas web del [**BCP**](https://www.bcp.gov.py/)**, [Hacienda](https://www.mef.gov.py/web-hacienda/index.php), [INE](https://www.ine.gov.py/)** **u otras** como [Banco Mundial](https://www.bancomundial.org/es/home), [FMI](https://www.imf.org/en/Data), [CEPAL](https://statistics.cepal.org/portal/cepalstat/index.html?lang=es), [OCDE](https://data.oecd.org/) y busque los indicadores macroeconómicos más importantes y **confeccione un cuadro comparativo** con un país europeo, un país asiático y un país latinoamericano.
 
 ## Ejercicio 1
 
