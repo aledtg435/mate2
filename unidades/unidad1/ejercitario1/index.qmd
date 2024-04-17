@@ -227,6 +227,30 @@ c.  Un proveedor vende chips de computadora a una **empresa que fabrica** comput
 
 d.  Un consumidor compra un automóvil a un **distribuidor**.
 
+## Ejercicio 2
+
+a\) Un turista paga una **comida** en un restaurante.
+
+-   `Sí` porque incluye **bienes y servicios finales** dentro del territorio nacional.
+
+b\) Una compañía compra un **edificio** **antiguo**.
+
+-   `No` contribuye al PIB porque es una transferencia de un activo ya existente. En el momento de su construcción ya fue contabilizado.
+
+c\) Un **proveedor** vende chips de computadora a una **empresa que fabrica** computadoras.
+
+-   `No` porque se contabilizan solo los bienes finales y no se consideran las materias primas.
+
+d\) Un consumidor compra un automóvil a un **distribuidor**.
+
+-   `Sí`, pero solo cuando es de **producción nacional** y la distribuidora se lo compra al fabricante.
+
+-   En caso de que sea una **importación** por parte de la distribuidora será esta la transacción a ser contabilizada.
+
+::: footer
+Ejercicio 2 - ¿Debe incluirse o no como parte del PIB? ¿Por qué no?
+:::
+
 ## Ejercicio 3
 
 Considere una economía simple con sólo 3 artículos. El precio de mercado de cada artículo es: $P_1= 5$, $P_2=10$ y $P_3=15$.
