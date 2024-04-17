@@ -2,10 +2,12 @@
 title: "Ejercitario 1"
 subtitle: "Diferentes formas de medir el PIB"
 format:
-  revealjs:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: true
+    preview-links: auto
     theme: default
-    chalkboard: true
-  pdf: default
 ---
 
 ## Sachs, Jeffrey y Larraín, Felipe. (1994).
@@ -269,12 +271,23 @@ Con dicha información calcule: a) el **PIB** del sector servicios b) el **PIB**
 
 ## Ejercicio 5
 
-Supongamos una economía donde el consumo agregado es igual a 100, la inversión igual a 80, se pagan impuestos por un total de 10, las exportaciones ascienden a 15 y las importaciones a 5. Además, el gobierno no posee deudas y gasta el total de sus ingresos. a) Calcular el PIB b) Calcular el ahorro privado, el ahorro público y el ahorro externo. c) Muestre la igualdad ahorro-inversión.
+Supongamos una economía donde el `consumo agregado` es igual a **100**, la `inversión` igual a **80**, se pagan `impuestos` por un total de **10**, las `exportaciones` ascienden a **15** y las `importaciones` a **5**.
+
+Además, el `gobierno` no posee deudas y gasta el total de sus ingresos.
+
+a.  Calcular el `PIB.`
+b.  Calcular el `ahorro privado`, el ahorro `público` y el ahorro `externo`.
+c.  Muestre la `igualdad ahorro-inversión`.
 
 ## Ejercicio 6
 
-Un PIB per cápita más alto ¿Implica necesariamente mayor bienestar?
+Un `PIB per cápita más` alto ¿Implica necesariamente mayor `bienestar`?
 
 ## Ejercicio 7
 
-Señale el tipo de sesgo que existe en la medición del índice de precios al consumidor frente a los siguientes hechos: a.) La aparición de múltiples plataformas de streaming. b.) El lanzamiento anual de novedosos y cada vez más potentes smartphones c.) La aparición de grandes establecimientos comerciales con ofertas muy interesantes para los consumidores. d.) El incremento del precio de la mantequilla frente a la margarina.
+Señale el tipo de sesgo que existe en la medición del `índice de precios al consumidor` frente a los siguientes hechos:
+
+a.  La aparición de múltiples plataformas de streaming.
+b.  El lanzamiento anual de novedosos y cada vez más potentes smartphones
+c.  La aparición de grandes establecimientos comerciales con ofertas muy interesantes para los consumidores.
+d.  El incremento del precio de la mantequilla frente a la margarina.
