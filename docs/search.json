@@ -130,7 +130,7 @@
     "href": "unidades/unidad1/ejercitario1/index.html#section",
     "title": "Ejercitario 1",
     "section": "",
-    "text": "Cálculo de índices\nDeflactor implícito del PIB (\\(DI\\))\n\\[\nDI = \\frac{PIB_{Nominal}}{PIB_{Real}}\n\\]\nÍndice de Precios al Consumidor (\\(IPC\\))\n\\[\nIPC_t = w_0 * \\frac{P_t}{P_0}\n\\]\n\\(w_0\\) : ponderador fijo en año base."
+    "text": "Índice de precios al consumidor usando ponderadores."
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#cálculo-de-índices",
@@ -249,6 +249,62 @@
     "href": "unidades/unidad1/ejercitario1/index.html#ejercicio-2-1",
     "title": "Ejercitario 1",
     "section": "Ejercicio 2",
-    "text": "Ejercicio 2\na) Un turista paga una comida en un restaurante.\n\nSí porque incluye bienes y servicios finales dentro del territorio nacional.\n\nb) Una compañía compra un edificio antiguo.\n\nNo contribuye al PIB porque es una transferencia de un activo ya existente. En el momento de su construcción ya fue contabilizado.\n\nc) Un proveedor vende chips de computadora a una empresa que fabrica computadoras.\n\nNo porque se contabilizan solo los bienes finales y no se consideran las materias primas.\n\nd) Un consumidor compra un automóvil a un distribuidor.\n\nSí, pero solo cuando es de producción nacional y la distribuidora se lo compra al fabricante.\nEn caso de que sea una importación por parte de la distribuidora será esta la transacción a ser contabilizada.\n\n\nEjercicio 2 - ¿Debe incluirse o no como parte del PIB? ¿Por qué no?"
+    "text": "Ejercicio 2\na) Un turista paga una comida en un restaurante.\n\nSí porque incluye bienes y servicios finales dentro del territorio nacional.\n\nb) Una compañía compra un edificio antiguo.\n\nNo contribuye al PIB porque es una transferencia de un activo ya existente. En el momento de su construcción ya fue contabilizado.\n\nc) Un proveedor vende chips de computadora a una empresa que fabrica computadoras.\n\nNo porque se contabilizan solo los bienes finales y no se consideran las materias primas.\n\nd) Un consumidor compra un automóvil a un distribuidor.\n\nSí, pero solo cuando es de producción nacional y la distribuidora se lo compra al fabricante.\nEn caso de que sea una importación por parte de la distribuidora será esta la transacción a ser contabilizada.\n\n\n\n¿Debe incluirse o no como parte del PIB? ¿Por qué no?"
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#df",
+    "href": "unidades/unidad1/ejercitario1/index.html#df",
+    "title": "Ejercitario 1",
+    "section": "{df}",
+    "text": "{df}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(1990\\)\n\n\n\n\\(1991\\)\n\n\n\n\n\nArtículo\n\\(P_1\\)\n\\(Q_1\\)\n\\(P_1Q_1\\)\n\n\\(P_2\\)\n\\(Q_2\\)\n\\(P_2Q_2\\)\n\n\n1\n\\(5\\)\n\\(20\\)\n\\(100\\)\n\n\\(6\\)\n\\(21\\)\n\\(126\\)\n\n\n2\n\\(10\\)\n\\(25\\)\n\\(250\\)\n\n\\(12\\)\n\\(27\\)\n\\(324\\)\n\n\n3\n\\(15\\)\n\\(10\\)\n\\(150\\)\n\n\\(17\\)\n\\(11\\)\n\\(187\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(PIB_1\\)\n\\(500\\)\n\n\n\\(PIB_2\\)\n\\(637\\)\n\n\n\n\\[a.1) PIB_1 = \\sum_{i=0}^{n}{P_1 * Q_1} = 500\\]\n\\[a.2) PIB_2 = \\sum_{i=0}^{n}{P_2 * Q_2} = 637\\]\n\nEl valor del PIB nominal de cada año."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#section-1",
+    "href": "unidades/unidad1/ejercitario1/index.html#section-1",
+    "title": "Ejercitario 1",
+    "section": "",
+    "text": "Índice de precios al consumidor usando ponderadores."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#a-el-valor-del-pib-nominal-de-cada-año",
+    "href": "unidades/unidad1/ejercitario1/index.html#a-el-valor-del-pib-nominal-de-cada-año",
+    "title": "Ejercitario 1",
+    "section": "\\(a)\\) El valor del PIB Nominal de cada año",
+    "text": "\\(a)\\) El valor del PIB Nominal de cada año\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(1990\\)\n\n\n\n\\(1991\\)\n\n\n\n\n\nArtículo\n\\(P_1\\)\n\\(Q_1\\)\n\\(P_1Q_1\\)\n\n\\(P_2\\)\n\\(Q_2\\)\n\\(P_2Q_2\\)\n\n\n1\n\\(5\\)\n\\(20\\)\n\\(100\\)\n\n\\(6\\)\n\\(21\\)\n\\(126\\)\n\n\n2\n\\(10\\)\n\\(25\\)\n\\(250\\)\n\n\\(12\\)\n\\(27\\)\n\\(324\\)\n\n\n3\n\\(15\\)\n\\(10\\)\n\\(150\\)\n\n\\(17\\)\n\\(11\\)\n\\(187\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(PIB_1\\)\n\\(500\\)\n\n\n\\(PIB_2\\)\n\\(637\\)\n\n\n\n\\[a.1) PIB_1 = \\sum_{i=0}^{n}{P_1 * Q_1} = 500\\]\n\\[a.2) PIB_2 = \\sum_{i=0}^{n}{P_2 * Q_2} = 637\\]\n\nEl valor del PIB nominal de cada año."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#a.-el-valor-del-pib-nominal-de-cada-año",
+    "href": "unidades/unidad1/ejercitario1/index.html#a.-el-valor-del-pib-nominal-de-cada-año",
+    "title": "Ejercitario 1",
+    "section": "a. El valor del PIB Nominal de cada año",
+    "text": "a. El valor del PIB Nominal de cada año\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(1990\\)\n\n\n\n\\(1991\\)\n\n\n\n\n\nArtículo\n\\(P_1\\)\n\\(Q_1\\)\n\\(P_1Q_1\\)\n\n\\(P_2\\)\n\\(Q_2\\)\n\\(P_2Q_2\\)\n\n\n1\n\\(5\\)\n\\(20\\)\n\\(100\\)\n\n\\(6\\)\n\\(21\\)\n\\(126\\)\n\n\n2\n\\(10\\)\n\\(25\\)\n\\(250\\)\n\n\\(12\\)\n\\(27\\)\n\\(324\\)\n\n\n3\n\\(15\\)\n\\(10\\)\n\\(150\\)\n\n\\(17\\)\n\\(11\\)\n\\(187\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(PIB_1\\)\n\\(500\\)\n\n\n\\(PIB_2\\)\n\\(637\\)\n\n\n\n\\[a.1) PIB_1 = \\sum_{i=0}^{n}{P_1 * Q_1} = 500\\]\n\\[a.2) PIB_2 = \\sum_{i=0}^{n}{P_2 * Q_2} = 637\\]\n\nEl valor del PIB nominal de cada año."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#a.-el-valor-del-pib-nominal",
+    "href": "unidades/unidad1/ejercitario1/index.html#a.-el-valor-del-pib-nominal",
+    "title": "Ejercitario 1",
+    "section": "3.a. El valor del PIB Nominal",
+    "text": "3.a. El valor del PIB Nominal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(1990\\)\n\n\n\n\\(1991\\)\n\n\n\n\n\nArtículo\n\\(P_1\\)\n\\(Q_1\\)\n\\(P_1Q_1\\)\n\n\\(P_2\\)\n\\(Q_2\\)\n\\(P_2Q_2\\)\n\n\n1\n\\(5\\)\n\\(20\\)\n\\(100\\)\n\n\\(6\\)\n\\(21\\)\n\\(126\\)\n\n\n2\n\\(10\\)\n\\(25\\)\n\\(250\\)\n\n\\(12\\)\n\\(27\\)\n\\(324\\)\n\n\n3\n\\(15\\)\n\\(10\\)\n\\(150\\)\n\n\\(17\\)\n\\(11\\)\n\\(187\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(PIB_1\\)\n\\(500\\)\n\n\n\\(PIB_2\\)\n\\(637\\)\n\n\n\n\\[a.1) PIB_1 = \\sum_{i=0}^{n}{P_1 * Q_1} = 500\\]\n\\[a.2) PIB_2 = \\sum_{i=0}^{n}{P_2 * Q_2} = 637\\]\n\n2.El valor del PIB nominal de cada año."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#b.-ipc-ponderando-la-participación-de-cada-artículo-en-el-consumo-total.",
+    "href": "unidades/unidad1/ejercitario1/index.html#b.-ipc-ponderando-la-participación-de-cada-artículo-en-el-consumo-total.",
+    "title": "Ejercitario 1",
+    "section": "b. IPC ponderando la participación de cada artículo en el consumo total.",
+    "text": "b. IPC ponderando la participación de cada artículo en el consumo total.\n\nÍndice de precios al consumidor usando ponderadores."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#b.-ipc-usando-ponderadores",
+    "href": "unidades/unidad1/ejercitario1/index.html#b.-ipc-usando-ponderadores",
+    "title": "Ejercitario 1",
+    "section": "3.b. IPC usando ponderadores",
+    "text": "3.b. IPC usando ponderadores\n\n\n\nArtículo\nParticipación\n\n\n\n\n1\n\\(100/500 = 0,2\\)\n\n\n2\n\\(250/500 = 0,5\\)\n\n\n3\n\\(150/500 = 0,3\\)\n\n\n\n\n\n\n\n\\(\\sum{Part} = 1\\)\n\n\n\n\\[\nIPC_t = w_{1, 0} *( \\frac{P_{1, t}}{P_{1, 0}}) + w_{2, 0} *( \\frac{P_{2, t}}{P_{2, 0}}) + w_{3, 0} *( \\frac{P_{3, t}}{P_{3, 0}})\n\\]\n\\[\nIPC_2 = w_{1, 1} ( \\frac{P_{1, 2}}{P_{1, 1}}) + w_{2, 1} ( \\frac{P_{2, 2}}{P_{2, 1}}) + w_{3, 1} ( \\frac{P_{3, 2}}{P_{3, 1}})\n\\]\n\\[\nIPC_2 = 0,2 ( \\frac{6}{5}) + 0,5 ( \\frac{12}{10}) + 0,3 ( \\frac{17}{15}) = 1,18\n\\]\n\\[IPC_2 = 1,18 * 100 = 118\\]\n\n3.b. Índice de precios al consumidor usando ponderadores."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#c.-índices-laspeyres-y-paasche",
+    "href": "unidades/unidad1/ejercitario1/index.html#c.-índices-laspeyres-y-paasche",
+    "title": "Ejercitario 1",
+    "section": "3.c. Índices Laspeyres y Paasche",
+    "text": "3.c. Índices Laspeyres y Paasche"
   }
 ]
