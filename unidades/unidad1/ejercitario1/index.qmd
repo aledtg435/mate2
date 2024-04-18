@@ -352,7 +352,7 @@ Mediante índice [Paasche]{.underline}
 
 ::: columns
 ::: {.column width="50%"}
-$$ IP_{P} = DI = \frac{\sum{P_t * Q_t}}{\sum{P_{0} * Q_t}} * 100 $$
+$$ IP_{P}  = \frac{\sum{P_t * Q_t}}{\sum{P_{0} * Q_t}} * 100 $$
 :::
 
 ::: {.column width="50%"}
@@ -362,10 +362,10 @@ $$ IP_{P} = \frac{\sum{P_2 * Q_2}}{\sum{P_{1} * Q_2}} * 100 $$
 
 $$ IP_{P} = \frac{(P_{1,2} * Q_{1,2}) + (P_{2,2} * Q_{2,2}) + (P_{3,2} * Q_{3,2})}{(P_{1,1} * {Q_{1,2}}) + (P_{2,1} * {Q_{2,2}}) + (P_{3,1} * {Q_{3,2}})} * 100 $$
 
-$$ IP_{P} = DI = \frac{(6 * 21) + (12 * 27) + (17 * 11)}{(5 * 21) + (10 * 27) + (15 * 11)} * 100 $$
+$$ IP_{P} = DI * 100 = \frac{(6 * 21) + (12 * 27) + (17 * 11)}{(5 * 21) + (10 * 27) + (15 * 11)} * 100 $$
 
 $$
- IP_{P} = DI = 117,96
+ IP_{P} = DI * 100 = 117,96...
 $$
 
 ::: footer
@@ -373,6 +373,19 @@ $$
 :::
 
 ## 3.d. `PIB Real` de 1991
+
+$$
+PIB_{Real} = \sum_{i = 0}^{n}{P_{i,0}*Q_{i,t}} 
+$$
+
+$$PIB_{Real} = (5*21)+(10*27) + (15*11) = 540$$
+
+$$
+PIB_{Real} = \frac{PIB_{Nominal}}{DI} = \frac{PIB_{Nominal}}{IP_P/100}
+$$
+$$
+PIB_{Real} = \frac{637}{1,1796...} = 540
+$$
 
 ::: footer
 3.d. `PIB real` del año 1991 usando 1990 como base.

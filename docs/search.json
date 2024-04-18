@@ -165,7 +165,7 @@
     "href": "unidades/unidad1/ejercitario1/index.html#para-muchos-productos-en-un-periodo-1",
     "title": "Ejercitario 1",
     "section": "Para muchos productos en un periodo",
-    "text": "Para muchos productos en un periodo\nMediante índice Laspeyres\n\\[ IP_{L} = \\frac{\\sum{P_t * Q_0}}{\\sum{P_{0} * Q_0}} * 100 \\]\nMediante índice Paasche\n\\[\nIP_{P} = DI = \\frac{\\sum{P_t * Q_t}}{\\sum{P_{0} * Q_t}} * 100\n\\]\nEl IPC es un índice Laspeyres\nEl DI es un índice Paasche"
+    "text": "Para muchos productos en un periodo\nMediante índice Laspeyres\n\\[ IP_{L} = \\frac{\\sum{P_t * Q_0}}{\\sum{P_{0} * Q_0}} * 100 \\]\nMediante índice Paasche\n\\[\nIP_{P} = DI * 100 = \\frac{\\sum{P_t * Q_t}}{\\sum{P_{0} * Q_t}} * 100\n\\]\nEl IPC es un índice Laspeyres\nEl DI es un índice Paasche"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#ejercitario-1",
@@ -312,6 +312,13 @@
     "href": "unidades/unidad1/ejercitario1/index.html#c.-ipc-laspeyres-y-paasche",
     "title": "Ejercitario 1",
     "section": "3.c. IPC Laspeyres y Paasche",
-    "text": "3.c. IPC Laspeyres y Paasche\n\n\n\\[ IP_{L} = \\frac{\\sum{P_t * Q_0}}{\\sum{P_{0} * Q_0}} * 100 \\]\n\n\\[ IP_{L} = \\frac{\\sum{P_2 * Q_1}}{\\sum{P_{1} * Q_1}} * 100 \\]\n\n\n\\[ IP_{L} = \\frac{(P_{1,2} * Q_{1,1}) + (P_{2,2} * Q_{2,1}) + (P_{3,2} * Q_{3,1})}{(P_{1,1} * {Q_{1,1}}) + (P_{2,1} * {Q_{2,1}}) + (P_{3,1} * {Q_{3,1}})} * 100 \\]\n\\[ IP_{L} = \\frac{(6 * 20) + (12 * 25) + (17 * 10)}{(5 * 20) + (10 * 25) + (15 * 10)} * 100 \\]\n\\[\nIP_L = 118\n\\]\nMediante índice Paasche\n\n\n\\[ IP_{P} = DI = \\frac{\\sum{P_t * Q_t}}{\\sum{P_{0} * Q_t}} * 100 \\]\n\n\\[ IP_{P} = \\frac{\\sum{P_2 * Q_2}}{\\sum{P_{1} * Q_2}} * 100 \\]\n\n\n\\[ IP_{P} = \\frac{(P_{1,2} * Q_{1,2}) + (P_{2,2} * Q_{2,2}) + (P_{3,2} * Q_{3,2})}{(P_{1,1} * {Q_{1,2}}) + (P_{2,1} * {Q_{2,2}}) + (P_{3,1} * {Q_{3,2}})} * 100 \\]\n\\[ IP_{P} = DI = \\frac{(6 * 21) + (12 * 27) + (17 * 11)}{(5 * 21) + (10 * 27) + (15 * 11)} * 100 \\]\n\\[\nIP_{P} = DI = 117,96\n\\]\n\n3.c. Laspeyres y Paasche."
+    "text": "3.c. IPC Laspeyres y Paasche\n\n\n\\[ IP_{L} = \\frac{\\sum{P_t * Q_0}}{\\sum{P_{0} * Q_0}} * 100 \\]\n\n\\[ IP_{L} = \\frac{\\sum{P_2 * Q_1}}{\\sum{P_{1} * Q_1}} * 100 \\]\n\n\n\\[ IP_{L} = \\frac{(P_{1,2} * Q_{1,1}) + (P_{2,2} * Q_{2,1}) + (P_{3,2} * Q_{3,1})}{(P_{1,1} * {Q_{1,1}}) + (P_{2,1} * {Q_{2,1}}) + (P_{3,1} * {Q_{3,1}})} * 100 \\]\n\\[ IP_{L} = \\frac{(6 * 20) + (12 * 25) + (17 * 10)}{(5 * 20) + (10 * 25) + (15 * 10)} * 100 \\]\n\\[\nIP_L = 118\n\\]\nMediante índice Paasche\n\n\n\\[ IP_{P}  = \\frac{\\sum{P_t * Q_t}}{\\sum{P_{0} * Q_t}} * 100 \\]\n\n\\[ IP_{P} = \\frac{\\sum{P_2 * Q_2}}{\\sum{P_{1} * Q_2}} * 100 \\]\n\n\n\\[ IP_{P} = \\frac{(P_{1,2} * Q_{1,2}) + (P_{2,2} * Q_{2,2}) + (P_{3,2} * Q_{3,2})}{(P_{1,1} * {Q_{1,2}}) + (P_{2,1} * {Q_{2,2}}) + (P_{3,1} * {Q_{3,2}})} * 100 \\]\n\\[ IP_{P} = DI * 100 = \\frac{(6 * 21) + (12 * 27) + (17 * 11)}{(5 * 21) + (10 * 27) + (15 * 11)} * 100 \\]\n\\[\nIP_{P} = DI * 100 = 117,96...\n\\]\n\n3.c. Laspeyres y Paasche."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#d.-pib-real-de-1991",
+    "href": "unidades/unidad1/ejercitario1/index.html#d.-pib-real-de-1991",
+    "title": "Ejercitario 1",
+    "section": "3.d. PIB Real de 1991",
+    "text": "3.d. PIB Real de 1991\n\\[\nPIB_{Real} = \\sum_{i = 0}^{n}{P_{i,0}*Q_{i,t}}\n\\]\n\\[PIB_{Real} = (5*21)+(10*27) + (15*11) = 540\\]\n\\[\nPIB_{Real} = \\frac{PIB_{Nominal}}{DI} = \\frac{PIB_{Nominal}}{IP_P/100}\n\\] \\[\nPIB_{Real} = \\frac{637}{1,1796...} = 40\n\\]\n\n3.d. PIB real del año 1991 usando 1990 como base."
   }
 ]
