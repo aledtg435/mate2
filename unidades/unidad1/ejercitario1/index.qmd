@@ -9,6 +9,11 @@ format:
       buttons: true
     preview-links: true
     theme: default
+  pdf:
+    toc: false
+    toc-depth: 3
+    number-sections: false
+    colorlinks: true
 ---
 
 ## Sachs, Jeffrey y Larraín, Felipe. (1994).
@@ -181,12 +186,12 @@ $$
 
 Mediante índice [Laspeyres]{.underline}
 
-$$ IPC_{L} = \frac{\sum{P_t * Q_0}}{\sum{P_{0} * Q_0}} * 100 $$
+$$ IP_{L} = \frac{\sum{P_t * Q_0}}{\sum{P_{0} * Q_0}} * 100 $$
 
 Mediante índice [Paasche]{.underline}
 
 $$
-IPC_{P} = DI = \frac{\sum{P_t * Q_t}}{\sum{P_{0} * Q_t}} * 100
+IP_{P} = DI = \frac{\sum{P_t * Q_t}}{\sum{P_{0} * Q_t}} * 100
 $$
 
 El **IPC** es un índice Laspeyres
@@ -313,11 +318,29 @@ $$
 
 $$IPC_2 = 1,18 * 100 = 118$$
 
+$$inflación = \pi = var \% IPC = \frac{(IPC_t - IPC_{t-1})}{IPC_{t-1}}$$
+
+$$
+\pi = \frac{(118-100)}{100} = 0,18 = 18\%
+$$
+
 ::: footer
 3.b. `Índice de precios al consumidor` usando ponderadores.
 :::
 
-## 3.c. Índices `Laspeyres` y `Paasche`
+## 3.c. IPC `Laspeyres` y `Paasche`
+
+$$ IP_{L} = \frac{\sum{P_t * Q_0}}{\sum{P_{0} * Q_0}} * 100 $$
+
+$$ IP_{L} = \frac{\sum{P_t * Q_0}}{\sum{P_{0} * Q_0}} * 100 $$
+
+Mediante índice [Paasche]{.underline}
+
+$$ IP_{P} = DI = \frac{\sum{P_t * Q_t}}{\sum{P_{0} * Q_t}} * 100 $$
+
+El **IPC** es un índice Laspeyres
+
+El **DI** es un índice Paasche
 
 ## Ejercicio 4
 
