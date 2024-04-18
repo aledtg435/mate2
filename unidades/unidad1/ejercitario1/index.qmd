@@ -191,7 +191,7 @@ $$ IP_{L} = \frac{\sum{P_t * Q_0}}{\sum{P_{0} * Q_0}} * 100 $$
 Mediante índice [Paasche]{.underline}
 
 $$
-IP_{P} = DI = \frac{\sum{P_t * Q_t}}{\sum{P_{0} * Q_t}} * 100
+IP_{P} = DI * 100 = \frac{\sum{P_t * Q_t}}{\sum{P_{0} * Q_t}} * 100
 $$
 
 El **IPC** es un índice Laspeyres
@@ -330,17 +330,53 @@ $$
 
 ## 3.c. IPC `Laspeyres` y `Paasche`
 
+::: columns
+::: {.column width="50%"}
 $$ IP_{L} = \frac{\sum{P_t * Q_0}}{\sum{P_{0} * Q_0}} * 100 $$
+:::
 
-$$ IP_{L} = \frac{\sum{P_t * Q_0}}{\sum{P_{0} * Q_0}} * 100 $$
+::: {.column width="50%"}
+$$ IP_{L} = \frac{\sum{P_2 * Q_1}}{\sum{P_{1} * Q_1}} * 100 $$
+:::
+:::
+
+$$ IP_{L} = \frac{(P_{1,2} * Q_{1,1}) + (P_{2,2} * Q_{2,1}) + (P_{3,2} * Q_{3,1})}{(P_{1,1} * {Q_{1,1}}) + (P_{2,1} * {Q_{2,1}}) + (P_{3,1} * {Q_{3,1}})} * 100 $$
+
+$$ IP_{L} = \frac{(6 * 20) + (12 * 25) + (17 * 10)}{(5 * 20) + (10 * 25) + (15 * 10)} * 100 $$
+
+$$
+IP_L = 118
+$$
 
 Mediante índice [Paasche]{.underline}
 
+::: columns
+::: {.column width="50%"}
 $$ IP_{P} = DI = \frac{\sum{P_t * Q_t}}{\sum{P_{0} * Q_t}} * 100 $$
+:::
 
-El **IPC** es un índice Laspeyres
+::: {.column width="50%"}
+$$ IP_{P} = \frac{\sum{P_2 * Q_2}}{\sum{P_{1} * Q_2}} * 100 $$
+:::
+:::
 
-El **DI** es un índice Paasche
+$$ IP_{P} = \frac{(P_{1,2} * Q_{1,2}) + (P_{2,2} * Q_{2,2}) + (P_{3,2} * Q_{3,2})}{(P_{1,1} * {Q_{1,2}}) + (P_{2,1} * {Q_{2,2}}) + (P_{3,1} * {Q_{3,2}})} * 100 $$
+
+$$ IP_{P} = DI = \frac{(6 * 21) + (12 * 27) + (17 * 11)}{(5 * 21) + (10 * 27) + (15 * 11)} * 100 $$
+
+$$
+ IP_{P} = DI = 117,96
+$$
+
+::: footer
+3.c. `Laspeyres` y `Paasche`.
+:::
+
+## 3.d. `PIB Real` de 1991
+
+::: footer
+3.d. `PIB real` del año 1991 usando 1990 como base.
+:::
 
 ## Ejercicio 4
 
