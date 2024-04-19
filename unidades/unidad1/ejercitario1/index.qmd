@@ -3,9 +3,9 @@ title: "Ejercitario 1"
 subtitle: "Diferentes formas de medir el PIB"
 format:
   revealjs: 
-    slide-number: true
-    slide-level: 3
     scrollable: true
+    slide-number: true
+    slide-level: 2
     chalkboard: 
       buttons: true
     preview-links: true
@@ -13,7 +13,7 @@ format:
   pdf:
     toc: false
     toc-depth: 3
-    number-sections: true
+    number-sections: false
     colorlinks: true
 ---
 
@@ -43,7 +43,7 @@ Es el valor total de la **producción corriente** de **bienes y servicios finale
 
 -   Es la suma de todos los **ingresos de los factores** de producción (trabajo y capital) en la economía.
 
-### Entonces {.title}
+## Entonces {.title}
 
 -   Método del [Gasto]{.underline} (compras finales).
 
