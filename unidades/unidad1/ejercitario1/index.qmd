@@ -199,10 +199,6 @@ El **IPC** es un índice Laspeyres
 
 El **DI** es un índice Paasche
 
-## Para toda la economía en varios periodos
-
-sdsd
-
 ## Ejercicio 1
 
 **La macroeconomía es una rama de la ciencia económica cuya aplicación a la vida diaria es casi inmediata ¿Cuál es la situación macroeconómica del Paraguay actualmente?**
