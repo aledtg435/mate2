@@ -4,6 +4,7 @@ subtitle: "Diferentes formas de medir el PIB"
 format:
   revealjs: 
     slide-number: true
+    slide-level: 3
     scrollable: true
     chalkboard: 
       buttons: true
@@ -12,7 +13,7 @@ format:
   pdf:
     toc: false
     toc-depth: 3
-    number-sections: false
+    number-sections: true
     colorlinks: true
 ---
 
@@ -42,7 +43,7 @@ Es el valor total de la **producción corriente** de **bienes y servicios finale
 
 -   Es la suma de todos los **ingresos de los factores** de producción (trabajo y capital) en la economía.
 
-## Diferentes formas de medir el PIB
+### Entonces {.title}
 
 -   Método del [Gasto]{.underline} (compras finales).
 
@@ -66,7 +67,7 @@ $I$ : inversión en capital nuevo para la economía
 
 $G$ : consumo del gobierno
 
-$NX$ : ventas netas al extranjero
+$NX$ : ventas netas al extranjero $(X - M)$
 
 ## Método del Producto
 
@@ -453,18 +454,85 @@ c.  Muestre la `igualdad ahorro-inversión`.
 a\) Calcular el `PIB`
 
 $$
-PIB = C + I + G + (X - M)
+PIB = C + I + G + (X - M) = \\
+100 + 80 + 10 + (15 - 5) = 200
 $$
+
+b\) Calcular el `ahorro privado`, el ahorro `público` y el ahorro `externo`
+
+$$
+S_p: Ahorro \ privado = Y - C - T = \\ 200 - 100 - 10 = 90
+$$
+
+$$
+S_g: Ahorro \ público = T - G = 10 - 10 = 0
+$$
+
+$$
+S_x: Ahorro \ externo = M - X = 5 - 15 = -10
+$$
+
+c\) Muestre la `igualdad ahorro-inversión`
+
+$$
+S_p + S_g + S_x = 90 + 0 - 10 = 80
+$$
+
+$$
+I = 80
+$$
+
+::: footer
+Ejercicio 5
+:::
 
 ## Ejercicio 6
 
 Un `PIB per cápita más` alto ¿Implica necesariamente mayor `bienestar`?
 
+`No`. Porque:
+
+-   No considera el grado de desigualdad en la distribución del ingreso de la economía.
+
+-   Mide la producción a precios de mercado, no en su verdadero valor social.
+
+-   Omite transacciones que se desarrollan al margen de la economía.
+
+-   Se representa en el poder adquisitivo de un dólar estadounidense.
+
+Una mejor medida la ofrece el índice de desarrollo humano (IDH)
+
+::: footer
+Ejercicio 6
+:::
+
 ## Ejercicio 7
 
 Señale el tipo de sesgo que existe en la medición del `índice de precios al consumidor` frente a los siguientes hechos:
 
-a.  La aparición de múltiples plataformas de streaming.
-b.  El lanzamiento anual de novedosos y cada vez más potentes smartphones
+a.  La aparición de múltiples plataformas de streaming / nueva tecnología de inteligencia artificial.
+b.  El lanzamiento anual de novedosos y cada vez más potentes smartphones.
 c.  La aparición de grandes establecimientos comerciales con ofertas muy interesantes para los consumidores.
 d.  El incremento del precio de la mantequilla frente a la margarina.
+
+### Desarrollo
+
+**a)** La aparición de múltiples plataformas de streaming / nueva tecnología de inteligencia artificial
+
+-   El IPC no recoge datos de tipo de productos digitales. `Sesgo de productos nuevos`
+
+**b)** El lanzamiento anual de novedosos y cada vez más potentes smartphones
+
+-   `Sesgo de mejor calidad`
+
+**c)** La aparición de grandes establecimientos comerciales con ofertas muy interesantes para los consumidores
+
+-   `Sesgo por sustitución de tiendas de descuentos`
+
+**d)** El incremento del precio de la mantequilla frente a la margarina
+
+-   `Sesgo de sustitución`
+
+::: footer
+Ejercicio 7
+:::
