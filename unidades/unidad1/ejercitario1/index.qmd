@@ -448,13 +448,13 @@ a.  Calcular el `PIB.`
 b.  Calcular el `ahorro privado`, el ahorro `público` y el ahorro `externo`.
 c.  Muestre la `igualdad ahorro-inversión`.
 
-### 5.a.
+### Desarrollo
 
-eff
+a\) Calcular el `PIB`
 
-### 5.b.
-
-aefaef
+$$
+PIB = C + I + G + (X - M)
+$$
 
 ## Ejercicio 6
 
