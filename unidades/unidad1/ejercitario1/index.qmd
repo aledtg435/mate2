@@ -208,8 +208,6 @@ sdsd
 
 Visite las páginas web del [**BCP**](https://www.bcp.gov.py/)**, [Hacienda](https://www.mef.gov.py/web-hacienda/index.php), [INE](https://www.ine.gov.py/)** **u otras** como [Banco Mundial](https://www.bancomundial.org/es/home), [FMI](https://www.imf.org/en/Data), [CEPAL](https://statistics.cepal.org/portal/cepalstat/index.html?lang=es), [OCDE](https://data.oecd.org/) y busque los indicadores macroeconómicos más importantes y **confeccione un cuadro comparativo** con un país europeo, un país asiático y un país latinoamericano.
 
-## Ejercicio 1
-
 **Indicadores macroeconómicos:** PIB, inflación, desempleo, tipos de interés, productividad.
 
 -   PIB = tasa de crecimiento, tendencia, pronóstico.
@@ -232,7 +230,7 @@ c.  Un proveedor vende chips de computadora a una **empresa que fabrica** comput
 
 d.  Un consumidor compra un automóvil a un **distribuidor**.
 
-## Ejercicio 2
+### Desarrollo
 
 a\) Un turista paga una **comida** en un restaurante.
 
@@ -264,9 +262,7 @@ La producción (y el consumo) de cada artículo durante $1990$ fue: $Q_1 = 20$; 
 
 Suponga que en $1991$ los precios suben a: $P_1= 6$, $P_2=12$ y $P_3= 17$ y las cantidades producidas (y consumidas) pasan a: $Q_1 = 21$; $Q_2= 27$ y $Q_3 = 11$.
 
-## Ejercicio 3
-
-[Determine]{.underline}:
+### Determine:
 
 a.  El valor del `PIB nominal` de cada año.
 b.  `Índice de precios al consumidor` usando como ponderadores la participación de cada artículo en el consumo total.
@@ -318,7 +314,7 @@ $$
 
 $$IPC_2 = 1,18 * 100 = 118$$
 
-$$inflación = \pi = var \% IPC = \frac{(IPC_t - IPC_{t-1})}{IPC_{t-1}}$$
+$$\pi : inflación = var \% IPC = \frac{(IPC_t - IPC_{t-1})}{IPC_{t-1}}$$
 
 $$
 \pi = \frac{(118-100)}{100} = 0,18 = 18\%
@@ -382,14 +378,37 @@ $$PIB_{Real} = (5*21)+(10*27) + (15*11) = 540$$
 
 $$
 PIB_{Real} = \frac{PIB_{Nominal}}{DI} = \frac{PIB_{Nominal}}{IP_P/100}
-$$
-$$
+$$ $$
 PIB_{Real} = \frac{637}{1,1796...} = 540
 $$
 
 ::: footer
 3.d. `PIB real` del año 1991 usando 1990 como base.
 :::
+
+## 3.e.
+
+`inflación` medida por el deflactor (economía total)
+
+$$
+DI = \frac{PIB_{Nominal}}{PIB_{Real}} = \frac{637}{540} = 1,1796...
+$$
+
+$$\pi_{DI} = (1,1796... - 1) * 100 = 17,96\%$$ `tasa real de crecimiento` de la economía
+
+$$
+g = \frac{PIB_t - PIB_{t-1}}{PIB_{t-1}} = \frac{540 - 500}{500} = 0,08 = 8\%
+$$
+
+## 3.f. `importancia` de usar índices o deflactores de precios. {.smaller}
+
+Generalmente la inflación medida por el IPC será mayor a la del DI porque ambos tienen una estructura diferente.
+
+El IPC mantiene constante la canasta del año base mientras que el DI utiliza como poderación la participación en la canasta conformada por los precios del año base y las cantidades del año de estudio (Índice Paashe).
+
+El IPC solo toma en cuenta el consumo mientras que el DI toma en cuenta todos los bienes que son producidos en una economía.
+
+Aunque el DI sea un indicador más completo por lo anteriormente mencionado, al ser este un indicador de los precios de la producción no representa adecuadamente los cambios en los precios al consumidor. Por ejemplo, si un país produce aviones estos van incorporados en el cómputo del DI pero no son parte de la canasta habitual de consumo.
 
 ## Ejercicio 4
 
@@ -403,17 +422,21 @@ Usted conoce la siguiente información sobre la economía de Macrolandia, donde 
 | PIB industrial       | 1.450 | Exportaciones        | 600 |
 | Impuestos indirectos | 50    |                      |     |
 
-## Ejercicio 4
-
 También se sabe que:
 
 -   El `stock de capital` es dos veces el `PIB` y que la depreciación corresponde al 5% del stock de capital actual.
 
--   Las importaciones tienen como único destino el consumo, del cual representan el 40%.
+-   Las `importaciones` tienen como único destino el consumo, del cual representan el 40%.
 
--   No existen impuestos directos.
+-   No existen `impuestos directos`.
 
 Con dicha información calcule: a) el **PIB** del sector servicios b) el **PIB** del total c) el **pago** **neto** **a** **factores** d) las remuneraciones a los **trabajadores** y; e) la **inversión** **bruta** y **neta**.
+
+::: footer
+Ejercicio 4
+:::
+
+### 4.a. `PIB Servicios`
 
 ## Ejercicio 5
 
@@ -424,6 +447,14 @@ Además, el `gobierno` no posee deudas y gasta el total de sus ingresos.
 a.  Calcular el `PIB.`
 b.  Calcular el `ahorro privado`, el ahorro `público` y el ahorro `externo`.
 c.  Muestre la `igualdad ahorro-inversión`.
+
+### 5.a.
+
+eff
+
+### 5.b.
+
+aefaef
 
 ## Ejercicio 6
 
