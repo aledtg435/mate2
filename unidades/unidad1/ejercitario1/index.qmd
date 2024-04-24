@@ -423,43 +423,32 @@ Con dicha información calcule: a) el **PIB** del sector servicios b) el **PIB**
 
 ### Desarrollo
 
-$$
 \begin{align}
 PIB &= PIB_A + PIB_I + PIB_S \\
 PIB &= 940 + 1.450 + PIB_S \ ...(1)
 \end{align}
-$$
 
-$$
 \begin{align}
 PIB &= C + I + G + (X - M) \\
 PIB &= 3.400 + I + 500 + (600 - 0,4 * 3.400) \ ...(2) \\
 \end{align}
-$$
 
-$$
 \begin{align}
 PNB &= PIB - PNF \\
 4.050 &= PIB - PNF...(3)
 \end{align}
-$$
 
-$$
 \begin{align}
 ID &= PIN - Ti = (PIB - DN) - Ti \\
 3.550 &= PIB - 0,05*Capital - 50 \\
 3.550 &= PIB - 0,05*2*PIB - 50...(4)
 \end{align}
-$$
 
-$$
 \begin{align}
 ID &= W + R - PNF \\
 3.550 &= W + 860 - PNF...(5)
 \end{align}
-$$
 
-$$
 \begin{align}
 &(4) \ PIB = \frac{3.550 + 50}{0,9}  = 4.000 \\
 &(1) \ PIB_S = 4.000 - 940 - 1.450 = 1.610 \\
@@ -468,7 +457,6 @@ $$
 &(3) \ PNF = 4.000 - 4050 = -50 \\
 &(5) \ W = 3.550 - 860 + (-50) = 2.640
 \end{align}
-$$
 
 ::: footer
 Ejercicio 4
