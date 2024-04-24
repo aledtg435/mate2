@@ -433,7 +433,7 @@ Con dicha información calcule: a) el **PIB** del sector servicios b) el **PIB**
 Ejercicio 4
 :::
 
-### 4.a. `PIB Servicios`
+### Desarrollo
 
 ## Ejercicio 5
 
