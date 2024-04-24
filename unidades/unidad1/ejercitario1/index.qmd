@@ -419,7 +419,7 @@ Usted conoce la siguiente información sobre la economía de Macrolandia, donde 
 | PIB industrial       | 1.450 | Exportaciones        | 600 |
 | Impuestos indirectos | 50    |                      |     |
 
-También se sabe que:
+**También se sabe que:**
 
 -   El `stock de capital` es dos veces el `PIB` y que la depreciación corresponde al 5% del stock de capital actual.
 
@@ -429,11 +429,38 @@ También se sabe que:
 
 Con dicha información calcule: a) el **PIB** del sector servicios b) el **PIB** del total c) el **pago** **neto** **a** **factores** d) las remuneraciones a los **trabajadores** y; e) la **inversión** **bruta** y **neta**.
 
+### Desarrollo
+
+$$
+\begin{align}
+PIB &= PIB_A + PIB_I + PIB_S \\
+PIB &= 940 + 1.450 + PIB_S \ ...(1)
+\end{align}
+$$
+
+$$
+\begin{align}
+PIB &= C + I + G + (X - M) \\
+PIB &= 3.400 + I + 500 + (600 - 0,4 * 3.400) \ ...(2) \\
+\end{align}
+$$
+
+$$
+\begin{align}
+PNB &= PIB - PNF \\
+4.050 &= PIB - PNF...(3)
+\end{align}
+$$
+
+$$
+\begin{align}
+dd
+\end{align}
+$$
+
 ::: footer
 Ejercicio 4
 :::
-
-### Desarrollo
 
 ## Ejercicio 5
 
