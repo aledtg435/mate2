@@ -2,14 +2,6 @@
 title: "Ejercitario 1"
 subtitle: "Diferentes formas de medir el PIB"
 format:
-  revealjs: 
-    scrollable: true
-    slide-number: true
-    slide-level: 2
-    chalkboard: 
-      buttons: true
-    preview-links: true
-    theme: default
   pdf:
     toc: false
     toc-depth: 3
@@ -454,7 +446,27 @@ $$
 
 $$
 \begin{align}
-dd
+ID &= PIN - Ti = (PIB - DN) - Ti \\
+3.550 &= PIB - 0,05*Capital - 50 \\
+3.550 &= PIB - 0,05*2*PIB - 50...(4)
+\end{align}
+$$
+
+$$
+\begin{align}
+ID &= W + R - PNF \\
+3.550 &= W + 860 - PNF...(5)
+\end{align}
+$$
+
+$$
+\begin{align}
+&(4) \ PIB = \frac{3.550 + 50}{0,9}  = 4.000 \\
+&(1) \ PIB_S = 4.000 - 940 - 1.450 = 1.610 \\
+&(2) \ I_{Bruta} = 4.000 - 3.400 - 500 - (-760) = 860 \\ 
+& \ \ \ \ \ \ I_{Neta} = I_{Bruta} - DN = 860 - 400 = 460 \\ 
+&(3) \ PNF = 4.000 - 4050 = -50 \\
+&(5) \ W = 3.550 - 860 + (-50) = 2.640
 \end{align}
 $$
 
