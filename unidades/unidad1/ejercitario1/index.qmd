@@ -8,7 +8,9 @@ format:
     slide-level: 2
     preview-links: true
     theme: default
-    embed-resources: true
+    chalkboard: 
+      buttons: true
+    #embed-resources: true
   pdf:
     toc: false
     toc-depth: 3
@@ -28,7 +30,7 @@ Macroeconomía en la Economía Global. `Capítulo 2`, Los conceptos básicos en 
 
 ## Producto Interno Bruto (PIB)
 
-Es el valor total de la **producción corriente** de **bienes y servicios finales** dentro del territorio nacional durante un período de tiempo, expresado en una **unidad de medida común**, generalamente en una unidad monetaria.
+Es el valor total de la **producción corriente** de **bienes y servicios finales** dentro del territorio nacional (sin distinguir si los factores de producción son de propiedad nacional o extranjera) durante un período de tiempo, expresado en una **unidad de medida común**, generalamente en una unidad monetaria.
 
 -   *"`producción corriente`"* no se cuenta la reventa de artículos producidos en un período anterior.
 
@@ -112,11 +114,23 @@ $$ PIB = ID + DN + Ti $$
 
 $$ PIB = (W + R) + DN + Ti $$
 
+Todos los componentes consideran solamente la producción nacional.
+
 ## Considerando el mercado abierto al resto del mundo
+
+*José de Gregorio, 1° Ed., pág. 33:* El $PIB$ es una medida de la producción total de un país. Sin embargo, no es necesariamente el ingreso de ese país.
+
+La primera aproximación para llegar al ingreso nacional es darse cuenta de que [no todos los factores son de propiedad de nacionales]{.underline}.
+
+Por ejemplo, al tener `deuda externa` significa que el prestamista, a pesar de no ser el dueño, tiene derechos sobre los activos, ya que estos le deben [pagar un retorno]{.underline}.
+
+Por ello, es útil el concepto de $PNB$: producto nacional bruto. El $PNB$ le resta (suma) al $PIB$ el pago (ingreso) neto a factores del (en el) exterior ($PNF$):
 
 $$
 PNB = PIB + PNF
 $$
+
+Entonces, asumiendo que cada componente del $PIB$ ahora incluye factores de propiedad nacional y extranjera:
 
 $$
 PIB = W + R + DN + Ti - PNF
@@ -126,7 +140,7 @@ $$
 PIB = ID + DN + Ti - PNF
 $$
 
-**Pago Neto a Factores (PNF):** ingreso neto recibido por factores de producción nacionales desde el exterior.
+**Pago Neto a Factores (PNF):** ingreso **neto** recibido por factores de producción nacionales desde el exterior.
 
 **PNB:** Producto Nacional Bruto.
 
@@ -166,7 +180,7 @@ $$
 
 $w_0$ : ponderador fijo en año base.
 
-$DI$: Todos los productos $IPC$: Canasta representativa
+$DI$: Todos los productos $\ \ \ IPC$: Canasta representativa
 
 ## Para muchos productos en un periodo
 

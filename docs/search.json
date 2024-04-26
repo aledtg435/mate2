@@ -60,7 +60,7 @@
     "href": "unidades/unidad1/ejercitario1/index.html#producto-interno-bruto-pib",
     "title": "Ejercitario 1",
     "section": "Producto Interno Bruto (PIB)",
-    "text": "Producto Interno Bruto (PIB)\nEs el valor total de la producción corriente de bienes y servicios finales dentro del territorio nacional durante un período de tiempo, expresado en una unidad de medida común, generalamente en una unidad monetaria.\n\n“producción corriente” no se cuenta la reventa de artículos producidos en un período anterior.\n“bienes finales” no se cuenta el valor de las materias primas y los bienes intermedios (semi-terminados) que se utilizan como insumos para la producción de otros bienes."
+    "text": "Producto Interno Bruto (PIB)\nEs el valor total de la producción corriente de bienes y servicios finales dentro del territorio nacional (sin distinguir si los factores de producción son de propiedad nacional o extranjera) durante un período de tiempo, expresado en una unidad de medida común, generalamente en una unidad monetaria.\n\n“producción corriente” no se cuenta la reventa de artículos producidos en un período anterior.\n“bienes finales” no se cuenta el valor de las materias primas y los bienes intermedios (semi-terminados) que se utilizan como insumos para la producción de otros bienes."
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#sachs-jeffrey-y-larraín-felipe.-1994.",
@@ -109,14 +109,14 @@
     "href": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso-2",
     "title": "Ejercitario 1",
     "section": "Método del Ingreso",
-    "text": "Método del Ingreso\n\\[ ID = PIN - Ti = (PIB - DN) - Ti \\]\n\\[ PIB = ID + DN + Ti \\]\n\\[ PIB = (W + R) + DN + Ti \\]"
+    "text": "Método del Ingreso\n\\[ ID = PIN - Ti = (PIB - DN) - Ti \\]\n\\[ PIB = ID + DN + Ti \\]\n\\[ PIB = (W + R) + DN + Ti \\]\nTodos los componentes consideran solamente la producción nacional."
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#considerando-el-mercado-abierto-al-resto-del-mundo",
     "href": "unidades/unidad1/ejercitario1/index.html#considerando-el-mercado-abierto-al-resto-del-mundo",
     "title": "Ejercitario 1",
     "section": "Considerando el mercado abierto al resto del mundo",
-    "text": "Considerando el mercado abierto al resto del mundo\n\\[\nPNB = PIB + PNF\n\\]\n\\[\nPIB = W + R + DN + Ti - PNF\n\\]\n\\[\nPIB = ID + DN + Ti - PNF\n\\]\nPago Neto a Factores (PNF): ingreso neto recibido por factores de producción nacionales desde el exterior.\nPNB: Producto Nacional Bruto."
+    "text": "Considerando el mercado abierto al resto del mundo\nJosé de Gregorio, 1° Ed., pág. 33: El \\(PIB\\) es una medida de la producción total de un país. Sin embargo, no es necesariamente el ingreso de ese país.\nLa primera aproximación para llegar al ingreso nacional es darse cuenta de que no todos los factores son de propiedad de nacionales.\nPor ejemplo, al tener deuda externa significa que el prestamista, a pesar de no ser el dueño, tiene derechos sobre los activos, ya que estos le deben pagar un retorno.\nPor ello, es útil el concepto de \\(PNB\\): producto nacional bruto. El \\(PNB\\) le resta (suma) al \\(PIB\\) el pago (ingreso) neto a factores del (en el) exterior (\\(PNF\\)):\n\\[\nPNB = PIB + PNF\n\\]\nEntonces, asumiendo que cada componente del \\(PIB\\) ahora incluye factores de propiedad nacional y extranjera:\n\\[\nPIB = W + R + DN + Ti - PNF\n\\]\n\\[\nPIB = ID + DN + Ti - PNF\n\\]\nPago Neto a Factores (PNF): ingreso neto recibido por factores de producción nacionales desde el exterior.\nPNB: Producto Nacional Bruto."
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#pib-nominal-y-pib-real",
@@ -137,7 +137,7 @@
     "href": "unidades/unidad1/ejercitario1/index.html#cálculo-de-índices",
     "title": "Ejercitario 1",
     "section": "Cálculo de índices",
-    "text": "Cálculo de índices\nDeflactor implícito del PIB (\\(DI\\))\n\\[\nDI = \\frac{PIB_{Nominal}}{PIB_{Real}}\n\\]\nÍndice de Precios al Consumidor (\\(IPC\\))\n\\[\nIPC_t = \\sum_{i = 0}^{n}{ w_{i, 0} * \\frac{P_{i, t}}{P_{i, 0}}}\n\\]\n\\(w_0\\) : ponderador fijo en año base.\n\\(DI\\): Todos los productos \\(IPC\\): Canasta representativa"
+    "text": "Cálculo de índices\nDeflactor implícito del PIB (\\(DI\\))\n\\[\nDI = \\frac{PIB_{Nominal}}{PIB_{Real}}\n\\]\nÍndice de Precios al Consumidor (\\(IPC\\))\n\\[\nIPC_t = \\sum_{i = 0}^{n}{ w_{i, 0} * \\frac{P_{i, t}}{P_{i, 0}}}\n\\]\n\\(w_0\\) : ponderador fijo en año base.\n\\(DI\\): Todos los productos \\(\\ \\ \\ IPC\\): Canasta representativa"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#para-muchos-productos-en-un-periodo",
