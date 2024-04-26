@@ -8,9 +8,9 @@ format:
     slide-level: 2
     preview-links: true
     theme: default
-    chalkboard: 
-      buttons: true
-    #embed-resources: true
+    #chalkboard: 
+      #buttons: true
+    embed-resources: true
   pdf:
     toc: false
     toc-depth: 3
@@ -26,7 +26,7 @@ Macroeconomía en la Economía Global. `Capítulo 2`, Los conceptos básicos en 
 
 -   La función de los precios y los índices de precios.
 
--   ....
+-   ...
 
 ## Producto Interno Bruto (PIB)
 
@@ -46,7 +46,7 @@ Es el valor total de la **producción corriente** de **bienes y servicios finale
 
 ## Entonces {.title}
 
--   Método del [Gasto]{.underline} (compras finales).
+-   Método del [Gasto]{.underline} (compras finales -\> componentes de la demanda agregada).
 
 -   Método del [Producto]{.underline} (valor agregado).
 
@@ -62,13 +62,12 @@ $$
 PIB=C+I+G+NX
 $$
 
-$C$ : es el consumo familiar
+La identidad de la contabilidad nacional fundamental (Dornbusch, 9° Ed., pág 27):
 
-$I$ : inversión en capital nuevo para la economía
-
-$G$ : consumo del gobierno
-
-$NX$ : ventas netas al extranjero $(X - M)$
+-   $C$ : es el consumo familiar
+-   $I$ : inversión en capital nuevo para la economía
+-   $G$ : consumo del gobierno
+-   $NX$ : ventas netas al extranjero $(X - M)$
 
 ## Método del Producto
 
@@ -84,7 +83,9 @@ $$
 PIB = VAB + Ti - S
 $$
 
-Considerando impuestos indirectos y subvenciones
+Considerando impuestos indirectos y subvenciones.
+
+*Dornbusch, 9° Ed., pág. 38*: La doble contabilización se evita utilizando el valor añadido. En **cada fase de fabricación** de un bien, sólo se incluye en el PIB el valor añadido del bien correspondiente a esa fase. El valor del [trigo]{.underline} producido por el agricultor se considera parte del PIB. El valor de la [harina]{.underline} vendida por el molinero menos el coste del trigo es el valor añadido del molinero. Si seguimos este proceso, veremos que la [suma del valor añadido en cada fase de producción es igual al valor final]{.underline} del pan vendido.
 
 ## Método del Ingreso
 
@@ -115,6 +116,12 @@ $$ PIB = ID + DN + Ti $$
 $$ PIB = (W + R) + DN + Ti $$
 
 Todos los componentes consideran solamente la producción nacional.
+
+## La producción y los pagos a los factores
+
+*Dornbusch, 9° Ed., pág. 24*: El lado de la producción de la economía transforma los factores, como el trabajo y el capital, en producción, es decir, en PIB. Los elementos que intervienen en la producción, como el trabajo y el capital, se denominan *factores de producción* y lo que se les paga, como los `salarios` y los `intereses`, se llama *pagos a los factores*.
+
+*pág. 25*: Los pagos a los factores comprenden los ingresos procedentes del extranjero que son pagos a factores de producción de propiedad nacional. Sumando estos pagos al PIB se obtiene el producto nacional bruto o PNB. Por ejemplo, una parte del PIB de Estados Unidos corresponde a los beneficios obtenidos por Honda en las fábricas que tiene en Estados Unidos. Estos beneficios forman parte del PNB japonés, porque constituyen la renta del capital de propiedad japonesa.
 
 ## Considerando el mercado abierto al resto del mundo
 
@@ -463,27 +470,27 @@ PNB &= PIB - PNF \\
 \end{align*}
 ```
 ```{=tex}
-\begin{align}
+\begin{align*}
 ID &= PIN - Ti = (PIB - DN) - Ti \\
 3.550 &= PIB - 0,05*Capital - 50 \\
 3.550 &= PIB - 0,05*2*PIB - 50...(4)
-\end{align}
+\end{align*}
 ```
 ```{=tex}
-\begin{align}
+\begin{align*}
 ID &= W + R - PNF \\
 3.550 &= W + 860 - PNF...(5)
-\end{align}
+\end{align*}
 ```
 ```{=tex}
-\begin{align}
+\begin{align*}
 &(4) \ PIB = \frac{3.550 + 50}{0,9}  = 4.000 \\
 &(1) \ PIB_S = 4.000 - 940 - 1.450 = 1.610 \\
 &(2) \ I_{Bruta} = 4.000 - 3.400 - 500 - (-760) = 860 \\ 
 & \ \ \ \ \ \ I_{Neta} = I_{Bruta} - DN = 860 - 400 = 460 \\ 
 &(3) \ PNF = 4.000 - 4050 = -50 \\
 &(5) \ W = 3.550 - 860 + (-50) = 2.640
-\end{align}
+\end{align*}
 ```
 ::: footer
 Ejercicio 4
@@ -503,24 +510,19 @@ c.  Muestre la `igualdad ahorro-inversión`.
 
 a\) Calcular el `PIB`
 
-$$
-PIB = C + I + G + (X - M) = \\
-100 + 80 + 10 + (15 - 5) = 200
-$$
-
+```{=tex}
+\begin{align*}
+PIB = &C + I + G + (X - M) = \\
+&100 + 80 + 10 + (15 - 5) = 200
+\end{align*}
+```
 b\) Calcular el `ahorro privado`, el ahorro `público` y el ahorro `externo`
 
-$$
-S_p: Ahorro \ privado = Y - C - T = \\ 200 - 100 - 10 = 90
-$$
+$S_p : Ahorro \ privado = Y - C - T = 200 - 100 - 10 = 90$
 
-$$
-S_g: Ahorro \ público = T - G = 10 - 10 = 0
-$$
+$S_g : Ahorro \ público = T - G = 10 - 10 = 0$
 
-$$
-S_x: Ahorro \ externo = M - X = 5 - 15 = -10
-$$
+$S_x : Ahorro \ externo = M - X = 5 - 15 = -10$
 
 c\) Muestre la `igualdad ahorro-inversión`
 
@@ -538,7 +540,7 @@ Ejercicio 5
 
 ## Ejercicio 6
 
-Un `PIB per cápita más` alto ¿Implica necesariamente mayor `bienestar`?
+Un `PIB per cápita más` alto ¿Implica necesariamente mayor `bienestar`? *José de Gregorio, 1° Ed., pág. 33:*
 
 `No`. Porque:
 

@@ -81,14 +81,14 @@
     "href": "unidades/unidad1/ejercitario1/index.html#método-del-gasto",
     "title": "Ejercitario 1",
     "section": "Método del Gasto",
-    "text": "Método del Gasto\n\\[\nPIB=C+I+G+NX\n\\]\n\\(C\\) : es el consumo familiar\n\\(I\\) : inversión en capital nuevo para la economía\n\\(G\\) : consumo del gobierno\n\\(NX\\) : ventas netas al extranjero \\((X - M)\\)"
+    "text": "Método del Gasto\n\\[\nPIB=C+I+G+NX\n\\]\nLa identidad de la contabilidad nacional fundamental (Dornbusch, 9° Ed., pág 27):\n\n\\(C\\) : es el consumo familiar\n\\(I\\) : inversión en capital nuevo para la economía\n\\(G\\) : consumo del gobierno\n\\(NX\\) : ventas netas al extranjero \\((X - M)\\)"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#método-del-producto",
     "href": "unidades/unidad1/ejercitario1/index.html#método-del-producto",
     "title": "Ejercitario 1",
     "section": "Método del Producto",
-    "text": "Método del Producto\n\\[\nPIB = \\sum_{j:1}^{n}{VAB_j}\n\\]\n\\[\nVAB_j = VBP_j - CI_j\n\\]\n\\[\nPIB = VAB + Ti - S\n\\]\nConsiderando impuestos indirectos y subvenciones"
+    "text": "Método del Producto\n\\[\nPIB = \\sum_{j:1}^{n}{VAB_j}\n\\]\n\\[\nVAB_j = VBP_j - CI_j\n\\]\n\\[\nPIB = VAB + Ti - S\n\\]\nConsiderando impuestos indirectos y subvenciones.\nDornbusch, 9° Ed., pág. 38: La doble contabilización se evita utilizando el valor añadido. En cada fase de fabricación de un bien, sólo se incluye en el PIB el valor añadido del bien correspondiente a esa fase. El valor del trigo producido por el agricultor se considera parte del PIB. El valor de la harina vendida por el molinero menos el coste del trigo es el valor añadido del molinero. Si seguimos este proceso, veremos que la suma del valor añadido en cada fase de producción es igual al valor final del pan vendido."
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#método-del-ingreso",
@@ -214,21 +214,21 @@
     "href": "unidades/unidad1/ejercitario1/index.html#ejercicio-4",
     "title": "Ejercitario 1",
     "section": "Ejercicio 4",
-    "text": "Ejercicio 4\nUsted conoce la siguiente información sobre la economía de Macrolandia, donde la producción se agrupa en tres sectores productivos (agrícola, industrial y servicios):\n\n\n\nConsumo\n3.400\nPIB sector agrícola\n940\n\n\nIngreso doméstico\n3.550\nRemuneración capital\n860\n\n\nPNB\n4.050\nGastos públicos\n500\n\n\nPIB industrial\n1.450\nExportaciones\n600\n\n\nImpuestos indirectos\n50\n\n\n\n\n\nTambién se sabe que:\n\nEl stock de capital es dos veces el PIB y que la depreciación corresponde al 5% del stock de capital actual.\nLas importaciones tienen como único destino el consumo, del cual representan el 40%.\nNo existen impuestos directos.\n\nCon dicha información calcule: a) el PIB del sector servicios b) el PIB del total c) el pago neto a factores d) las remuneraciones a los trabajadores y; e) la inversión bruta y neta.\nDesarrollo\n\\[\\begin{align*}\nPIB &= PIB_A + PIB_I + PIB_S \\\\\nPIB &= 940 + 1.450 + PIB_S \\ ...(1)\n\\end{align*}\\]\n\\[\\begin{align*}\nPIB &= C + I + G + (X - M) \\\\\nPIB &= 3.400 + I + 500 + (600 - 0,4 * 3.400) \\ ...(2) \\\\\n\\end{align*}\\]\n\\[\\begin{align*}\nPNB &= PIB - PNF \\\\\n4.050 &= PIB - PNF...(3)\n\\end{align*}\\]\n\\[\\begin{align}\nID &= PIN - Ti = (PIB - DN) - Ti \\\\\n3.550 &= PIB - 0,05*Capital - 50 \\\\\n3.550 &= PIB - 0,05*2*PIB - 50...(4)\n\\end{align}\\]\n\\[\\begin{align}\nID &= W + R - PNF \\\\\n3.550 &= W + 860 - PNF...(5)\n\\end{align}\\]\n\\[\\begin{align}\n&(4) \\ PIB = \\frac{3.550 + 50}{0,9}  = 4.000 \\\\\n&(1) \\ PIB_S = 4.000 - 940 - 1.450 = 1.610 \\\\\n&(2) \\ I_{Bruta} = 4.000 - 3.400 - 500 - (-760) = 860 \\\\\n& \\ \\ \\ \\ \\ \\ I_{Neta} = I_{Bruta} - DN = 860 - 400 = 460 \\\\\n&(3) \\ PNF = 4.000 - 4050 = -50 \\\\\n&(5) \\ W = 3.550 - 860 + (-50) = 2.640\n\\end{align}\\]\n\nEjercicio 4"
+    "text": "Ejercicio 4\nUsted conoce la siguiente información sobre la economía de Macrolandia, donde la producción se agrupa en tres sectores productivos (agrícola, industrial y servicios):\n\n\n\nConsumo\n3.400\nPIB sector agrícola\n940\n\n\nIngreso doméstico\n3.550\nRemuneración capital\n860\n\n\nPNB\n4.050\nGastos públicos\n500\n\n\nPIB industrial\n1.450\nExportaciones\n600\n\n\nImpuestos indirectos\n50\n\n\n\n\n\nTambién se sabe que:\n\nEl stock de capital es dos veces el PIB y que la depreciación corresponde al 5% del stock de capital actual.\nLas importaciones tienen como único destino el consumo, del cual representan el 40%.\nNo existen impuestos directos.\n\nCon dicha información calcule: a) el PIB del sector servicios b) el PIB del total c) el pago neto a factores d) las remuneraciones a los trabajadores y; e) la inversión bruta y neta.\nDesarrollo\n\\[\\begin{align*}\nPIB &= PIB_A + PIB_I + PIB_S \\\\\nPIB &= 940 + 1.450 + PIB_S \\ ...(1)\n\\end{align*}\\]\n\\[\\begin{align*}\nPIB &= C + I + G + (X - M) \\\\\nPIB &= 3.400 + I + 500 + (600 - 0,4 * 3.400) \\ ...(2) \\\\\n\\end{align*}\\]\n\\[\\begin{align*}\nPNB &= PIB - PNF \\\\\n4.050 &= PIB - PNF...(3)\n\\end{align*}\\]\n\\[\\begin{align*}\nID &= PIN - Ti = (PIB - DN) - Ti \\\\\n3.550 &= PIB - 0,05*Capital - 50 \\\\\n3.550 &= PIB - 0,05*2*PIB - 50...(4)\n\\end{align*}\\]\n\\[\\begin{align*}\nID &= W + R - PNF \\\\\n3.550 &= W + 860 - PNF...(5)\n\\end{align*}\\]\n\\[\\begin{align*}\n&(4) \\ PIB = \\frac{3.550 + 50}{0,9}  = 4.000 \\\\\n&(1) \\ PIB_S = 4.000 - 940 - 1.450 = 1.610 \\\\\n&(2) \\ I_{Bruta} = 4.000 - 3.400 - 500 - (-760) = 860 \\\\\n& \\ \\ \\ \\ \\ \\ I_{Neta} = I_{Bruta} - DN = 860 - 400 = 460 \\\\\n&(3) \\ PNF = 4.000 - 4050 = -50 \\\\\n&(5) \\ W = 3.550 - 860 + (-50) = 2.640\n\\end{align*}\\]\n\nEjercicio 4"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#ejercicio-5",
     "href": "unidades/unidad1/ejercitario1/index.html#ejercicio-5",
     "title": "Ejercitario 1",
     "section": "Ejercicio 5",
-    "text": "Ejercicio 5\nSupongamos una economía donde el consumo agregado es igual a 100, la inversión igual a 80, se pagan impuestos por un total de 10, las exportaciones ascienden a 15 y las importaciones a 5.\nAdemás, el gobierno no posee deudas y gasta el total de sus ingresos.\n\nCalcular el PIB.\nCalcular el ahorro privado, el ahorro público y el ahorro externo.\nMuestre la igualdad ahorro-inversión.\n\nDesarrollo\na) Calcular el PIB\n\\[\nPIB = C + I + G + (X - M) = \\\\\n100 + 80 + 10 + (15 - 5) = 200\n\\]\nb) Calcular el ahorro privado, el ahorro público y el ahorro externo\n\\[\nS_p: Ahorro \\ privado = Y - C - T = \\\\ 200 - 100 - 10 = 90\n\\]\n\\[\nS_g: Ahorro \\ público = T - G = 10 - 10 = 0\n\\]\n\\[\nS_x: Ahorro \\ externo = M - X = 5 - 15 = -10\n\\]\nc) Muestre la igualdad ahorro-inversión\n\\[\nS_p + S_g + S_x = 90 + 0 - 10 = 80\n\\]\n\\[\nI = 80\n\\]\n\nEjercicio 5"
+    "text": "Ejercicio 5\nSupongamos una economía donde el consumo agregado es igual a 100, la inversión igual a 80, se pagan impuestos por un total de 10, las exportaciones ascienden a 15 y las importaciones a 5.\nAdemás, el gobierno no posee deudas y gasta el total de sus ingresos.\n\nCalcular el PIB.\nCalcular el ahorro privado, el ahorro público y el ahorro externo.\nMuestre la igualdad ahorro-inversión.\n\nDesarrollo\na) Calcular el PIB\n\\[\\begin{align*}\nPIB = &C + I + G + (X - M) = \\\\\n&100 + 80 + 10 + (15 - 5) = 200\n\\end{align*}\\]\nb) Calcular el ahorro privado, el ahorro público y el ahorro externo\n\\(S_p : Ahorro \\ privado = Y - C - T = 200 - 100 - 10 = 90\\)\n\\(S_g : Ahorro \\ público = T - G = 10 - 10 = 0\\)\n\\(S_x : Ahorro \\ externo = M - X = 5 - 15 = -10\\)\nc) Muestre la igualdad ahorro-inversión\n\\[\nS_p + S_g + S_x = 90 + 0 - 10 = 80\n\\]\n\\[\nI = 80\n\\]\n\nEjercicio 5"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#ejercicio-6",
     "href": "unidades/unidad1/ejercitario1/index.html#ejercicio-6",
     "title": "Ejercitario 1",
     "section": "Ejercicio 6",
-    "text": "Ejercicio 6\nUn PIB per cápita más alto ¿Implica necesariamente mayor bienestar?\nNo. Porque:\n\nNo considera el grado de desigualdad en la distribución del ingreso de la economía.\nMide la producción a precios de mercado, no en su verdadero valor social.\nOmite transacciones que se desarrollan al margen de la economía.\nSe representa en el poder adquisitivo de un dólar estadounidense.\n\nUna mejor medida la ofrece el índice de desarrollo humano (IDH)\n\nEjercicio 6"
+    "text": "Ejercicio 6\nUn PIB per cápita más alto ¿Implica necesariamente mayor bienestar? José de Gregorio, 1° Ed., pág. 33:\nNo. Porque:\n\nNo considera el grado de desigualdad en la distribución del ingreso de la economía.\nMide la producción a precios de mercado, no en su verdadero valor social.\nOmite transacciones que se desarrollan al margen de la economía.\nSe representa en el poder adquisitivo de un dólar estadounidense.\n\nUna mejor medida la ofrece el índice de desarrollo humano (IDH)\n\nEjercicio 6"
   },
   {
     "objectID": "unidades/unidad1/ejercitario1/index.html#ejercicio-7",
@@ -361,6 +361,13 @@
     "href": "unidades/unidad1/ejercitario1/index.html#entonces",
     "title": "Ejercitario 1",
     "section": "Entonces",
-    "text": "Entonces\n\nMétodo del Gasto (compras finales).\nMétodo del Producto (valor agregado).\nMétodo del Ingreso (ingreso de los factores).\n\nTodos dan el mismo resultado1\nSe pueden presentar pequeñas diferencias entre las tres medidas debido a errores en los datos."
+    "text": "Entonces\n\nMétodo del Gasto (compras finales -&gt; componentes de la demanda agregada).\nMétodo del Producto (valor agregado).\nMétodo del Ingreso (ingreso de los factores).\n\nTodos dan el mismo resultado1\nSe pueden presentar pequeñas diferencias entre las tres medidas debido a errores en los datos."
+  },
+  {
+    "objectID": "unidades/unidad1/ejercitario1/index.html#la-producción-y-los-pagos-a-los-factores",
+    "href": "unidades/unidad1/ejercitario1/index.html#la-producción-y-los-pagos-a-los-factores",
+    "title": "Ejercitario 1",
+    "section": "La producción y los pagos a los factores",
+    "text": "La producción y los pagos a los factores\nDornbusch, 9° Ed., pág. 24: El lado de la producción de la economía transforma los factores, como el trabajo y el capital, en producción, es decir, en PIB. Los elementos que intervienen en la producción, como el trabajo y el capital, se denominan factores de producción y lo que se les paga, como los salarios y los intereses, se llama pagos a los factores.\npág. 25: Los pagos a los factores comprenden los ingresos procedentes del extranjero que son pagos a factores de producción de propiedad nacional. Sumando estos pagos al PIB se obtiene el producto nacional bruto o PNB. Por ejemplo, una parte del PIB de Estados Unidos corresponde a los beneficios obtenidos por Honda en las fábricas que tiene en Estados Unidos. Estos beneficios forman parte del PNB japonés, porque constituyen la renta del capital de propiedad japonesa."
   }
 ]
