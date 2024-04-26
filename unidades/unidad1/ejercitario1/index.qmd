@@ -6,11 +6,9 @@ format:
     scrollable: true
     slide-number: true
     slide-level: 2
-    chalkboard: 
-      buttons: true
     preview-links: true
     theme: default
-    standalone: true
+    embed-resources: true
   pdf:
     toc: false
     toc-depth: 3
